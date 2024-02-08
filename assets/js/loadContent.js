@@ -19,6 +19,12 @@ function loadStyles(stylePath) {
     document.head.appendChild(link);
 }
 
+window.addEventListener("load", function() {
+    var loader = document.getElementById("loader-wrapper");
+    loader.style.display = "none";
+  });
+  
+
 // Cargar el Navbar y el Page Header
 loadContent("navbarContainer", "navbar.html");
 loadContent("pageHeaderContainer", "page-header.html");
