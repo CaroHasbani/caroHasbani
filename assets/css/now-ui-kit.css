@@ -7403,16 +7403,20 @@ img {
 }
 
 .apartments {
-  margin-top: 20px; /* Ajusta el margen superior entre filas según tus preferencias */
+  margin-top: 20px; 
 }
 .item-list {
   list-style: none;
   padding: 0;
 }
 .item-list li {
-  margin-bottom: 10px; /* Ajusta el margen inferior entre elementos de la lista según tus preferencias */
+  margin-bottom: 10px; 
 }
 .item-list i {
-  margin-right: 10px; /* Ajusta el margen a la derecha del ícono según tus preferencias */
+  margin-right: 10px;
+}
+
+#section-services{
+  padding: 0px !important
 }
 
