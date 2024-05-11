@@ -6713,7 +6713,7 @@ img {
   max-width: 1280px;
   margin: auto;
   /* padding-bottom: 4rem; */
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 .content-banner-simple .simple-banner {
   padding: 0 1rem;
@@ -6859,4 +6859,23 @@ img {
 
 .mt-3{
   margin-top:3px;
+}
+
+#map iframe{
+  width: 600px; 
+      height: 450px; 
+}
+
+@media (max-width: 768px) {
+  #map iframe{
+      width: 100%; 
+      height: auto; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #map iframe {
+    width: 70%;
+    height: auto;
+  }
 }
