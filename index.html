@@ -1,24 +1,12 @@
-<!-- DOCU: https://demos.creative-tim.com/now-ui-kit/docs/1.0/components/typography.html -->
-<!-- LANDING: https://demos.creative-tim.com/now-ui-kit/examples/landing-page.html -->
-<!-- UI KIT: https://www.creative-tim.com/product/now-ui-kit?_ga=2.95863260.1102057578.1703122694-1778316410.1687813377&tracking=first-time# -->
-<!-- REPO: https://github.com/creativetimofficial/now-ui-kit -->
-<!-- PAG: https://bustillochico.com/ -->
-<!-- BOOKING: https://www.booking.com/hotel/ar/bustillo-chico-san-carlos-de-bariloche1.es-ar.html -->
-
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>Bustillo Chico</title>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
-    name='viewport' />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bustillo chico</title>
 
-  <!--     Fonts and icons     -->
+     <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
@@ -26,41 +14,77 @@
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="./assets/css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
 
-
 </head>
-
 <body class="landing-page sidebar-collapse">
-
   <div id="loader-wrapper">
     <div id="loader"></div>
   </div>
-
-  <!----------------------------------------NavBar------------------------------------------------------------>
+   <!----------------------------------------NavBar------------------------------------------------------------>
  
-  <div id="navbarContainer"></div>
+   <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent" color-on-scroll="400">
+    <div class="container">
+      <div class="dropdown button-dropdown">
+        <a href="#" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
+          <span class="button-bar"></span>
+          <span class="button-bar"></span>
+          <span class="button-bar"></span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-header">Menú</a>
+          <a class="dropdown-item" href="index.html">Inicio</a>
+          <a class="dropdown-item" href="index.html#departamentos">Departamentos</a>
+          <a class="dropdown-item" href="index.html#section-contact-us">Ubicación y contacto</a>
+          
+        </div>
+      </div>
+      <div class="navbar-translate">
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar top-bar"></span>
+          <span class="navbar-toggler-bar middle-bar"></span>
+          <span class="navbar-toggler-bar bottom-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end has-image" id="navigation"
+        style="background: url(&quot;./assets/img/blurred-image-1.jpg&quot;) 0% 0% / cover;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#departamentos">Departamentos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#section-contact-us">Contactanos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!----------------------------------------------------------Page Header--------------------------------------------------------------->
   <div class="page-header page-header-small">
     <div class="page-header-image" data-parallax="true"
-      style="background-image: url(&quot;./assets/img/exterior3.jpg&quot;); transform: translate3d(0px, 0px, 0px);">
+      style="background-image: url(&quot;./assets/img/exterior.png&quot;); transform: translate3d(0px, 0px, 0px); ">
+      <!---->
     </div>
     <div class="content-center">
       <div class="container">
         <h1 class="title">Bustillo Chico</h1>
         <div class="text-center">
-          <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+          <a href="https://www.facebook.com/bustillochico/" class="btn btn-primary btn-icon btn-round">
             <i class="fab fa-facebook-square"></i>
           </a>
-          <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+          <!-- <a href="#pablo" class="btn btn-primary btn-icon btn-round">
             <i class="fab fa-twitter"></i>
           </a>
           <a href="#pablo" class="btn btn-primary btn-icon btn-round">
             <i class="fab fa-google-plus"></i>
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
   </div>
-
   <!--------------------------------about us--------------------------------->
   <div class="section section-about-us">
     <div class="container">
@@ -75,21 +99,21 @@
       <div class="section-story-overview">
         <div class="row">
           <div class="col-md-6">
-            <div class="image-container image-left" style="background-image: url('./assets/img/paisaje.jpg')">
+            <div class="image-container image-left" style="background-image: url('./assets/img/bg1.png')">
 
               <p class="blockquote blockquote-primary">“La ubicación... Frente al lago y acceso rápido a la ruta.. todo
                 excelente... Lo recomiendo al 100%”
                 <br>
                 <br>
-                <small> no se si va</small>
+                <small>Lucas, huesped </small>
               </p>
             </div>
 
-            <div class="image-container" style="background-image: url('./assets/img/bg3.jpg')"></div>
+            <div class="image-container" style="background-image: url('./assets/img/bg8.png')"></div>
           </div>
           <div class="col-md-5">
 
-            <div class="image-container image-right" style="background-image: url('./assets/img/bg1.jpg')"></div>
+            <div class="image-container image-right" style="background-image: url('./assets/img/bg3.png')"></div>
             <h3>titulo que no se que ponerle</h3>
             <p>Alejado del bullicio de la ciudad, para conectarse con la naturaleza, pero con excelente acceso a todos
               los sitios de interés de nuestra hermosa Ciudad.
@@ -98,7 +122,7 @@
               Nos encontramos en Bustillo 21679, a casi 22 Km del centro cívico, sobre la avenida principal y con una
               bellísima vista al lago Nahuel Huapi.
             </p>
-            <p>Contamos con distintos tipos de departamentos para que vengas a disfrutar de este paraíso en familia o
+            <p>Contamos con distintos tipos de departamentos para que vengas a disfrutar  en familia o
               con amigos.
             </p>
             <p>No te lo pierdas! Te esperamos! </p>
@@ -109,230 +133,712 @@
   </div>
 
   <!--------------------Content------------->
-  <div class="container content-banner-simple flex flex-m-sa">
-    <div class="row justify-content-center">
-      <!-- Columna 1 -->
-      <div class="col-md-4 simple-banner mb-4 mb-md-custom">
-        <img class="banner-img" src="./assets/img/bg1.jpg" alt="">
-        <div class="banner-title">Departamentos</div>
-        <a href="departamentos.html" class="banner-button">VER MÁS</a>
-    </div>
-
-      <!-- Columna 2 -->
-      <div class="col-md-4 simple-banner mb-4 mb-md-custom">
-        <img class="banner-img" src="./assets/img/bg1.jpg" alt="">
-        <div class="banner-title">Servicios</div>
-        <a href="departamentos.html#section-services" class="banner-button">VER MÁS</a>
-      </div>
-
-      <!-- Columna 3 -->
-      <div class="col-md-4 simple-banner mb-4 mb-md-custom">
-        <img class="banner-img" src="./assets/img/bg1.jpg" alt="">
-        <div class="banner-title">Ubicación y contacto</div>
-        <a href="#section-contact-us" class="banner-button">VER MÁS</a>
-      </div>
-
-    </div>
-  </div>
-
-  <!-------------------------------------------FA----------------------------------------->
-  <div class="container">
-    <div id="accordion" role="tablist" aria-multiselectable="true" class="card-collapse mx-auto">
-      <h2 class="title text-center">Preguntas frecuentes</h2>
-      <!--------------first question--------------------->
-      <div class="card card-plain">
-        <div class="card-header" role="tab" id="headingOne">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
-            aria-controls="collapseOne">
-            ¿Se aceptan mascotas?
-            <i class="now-ui-icons arrows-1_minimal-down"></i>
-          </a>
-        </div>
-        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-          <div class="card-body">
-
-            ¡Sí, totalmente! En nuestro complejo damos la bienvenida a tus adorables compañeros peludos. Entendemos que
-            las mascotas son parte de la familia, y queremos que disfruten de unas vacaciones tan increíbles como vos.
-          </div>
-        </div>
-      </div>
-      <!--------------second question--------------------->
-      <div class="card card-plain">
-        <div class="card-header" role="tab" id="headingTwo">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
-            aria-controls="collapseTwo">
-            ¿Tengo que llevarme ventilador para el verano?
-            <i class="now-ui-icons arrows-1_minimal-down"></i>
-          </a>
-        </div>
-        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
-            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-            you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
-        </div>
-      </div>
-      <!--------------third question--------------------->
-      <div class="card card-plain">
-        <div class="card-header" role="tab" id="headingThree">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
-            aria-controls="collapseThree">
-            ¿Cuales son los horarios de check-in y check-out?
-            <i class="now-ui-icons arrows-1_minimal-down"></i>
-          </a>
-        </div>
-        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3
-            wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
-            excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
-            you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!----------------------------------------Contacto---------------------------------------->
-
-  <!-- <div class="section section-contact-us text-center" id="section-contact-us">
-    <div class="container">
-      <h2 class="title">Tu consulta no molesta</h2>
-      <p class="description">Your project is very important to us.</p>
-      <div class="row">
-        <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
-          <form id="contact-form">
-            <div class="input-group input-lg">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <i class="now-ui-icons users_circle-08"></i>
-                </span>
+<div class="section " id="departamentos">
+    <div class="container content-banner-simple flex flex-m-sa">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-8 ml-auto mr-auto text-center">
+                <h2 class="title">Lo que te ofrecemos</h2>
+                <h5 class="description">Contamos con apartamentos con balcón privado y vistas al lago Nahuel Huapi y a los bosques de Cipreses y Arrayanes de los alrededores. </h5>
               </div>
-              <input type="text" class="form-control" id="name" placeholder="Nombre y Apellido...">
             </div>
-            <div class="input-group input-lg">
-              <div class="input-group-prepend">
-                <span class="input-group-text">
-                  <i class="now-ui-icons ui-1_email-85"></i>
-                </span>
-              </div>
-              <input type="text" class="form-control" id="email" placeholder="Email...">
-            </div>
-            <div class="textarea-container">
-              <textarea class="form-control" id="message" name="message" rows="4" cols="80"
-                placeholder="Escribe un mensaje..."></textarea>
-            </div>
-            <div class="send-button">
-              <button type="button" class="btn btn-primary btn-round btn-block btn-lg"
-                onclick="validateForm()">Enviar</button>
-            </div>
-            <div id="error-message" class="error-message"></div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div> -->
+        <div class="row justify-content-center">
+          <!-- Columna 1 -->
+          <div class="col-md-4 simple-banner mb-4 mb-md-custom">
+            <!-- <img class="banner-img" src="./assets/img/bg1.png" alt=""> -->
+            <div class="banner-img">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/deluxe/living.PNG" class="d-block w-100" alt="living">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/deluxe/camasCuartoChico.PNG" class="d-block w-100" alt="camasCuartoChico">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/deluxe/matrimonial.PNG" class="d-block w-100" alt="cama matrimonial">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/deluxe/matrimonial2.PNG" class="d-block w-100" alt="cama matrimonial">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/deluxe/bañera.PNG" class="d-block w-100" alt="bañera">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/deluxe/2doBaño.PNG" class="d-block w-100" alt="baño">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/deluxe/cocina.PNG" class="d-block w-100" alt="cocina">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/deluxe/baño.PNG" class="d-block w-100" alt="baño">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/deluxe/livingGrande.PNG" class="d-block w-100" alt="living">
+                        </div>
+                    </div>
 
-<!------------------------Location----------->
-
-
-<div class="section section-contact-us" id="section-contact-us">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 ml-auto mr-auto text-center">
-        <h2 class="title">Nos encontras en</h2>
-      </div>
-    </div>
-  </div>
-  <div class="container mt-5">
-    <div class="row">
-      <!-- Columna izquierda con items de la lista y formulario de contacto -->
-      <div class="col-md-6">
-        <!-- Primera fila con items de la lista -->
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="item-list">
-              <li><i class="now-ui-icons location_pin"></i> Avenida Ezequiel Bustillo 21679, San Carlos de Bariloche</li>
-              <li><i class="now-ui-icons ui-1_email-85"></i> <a href="mailto:info@bustillochico.com?Subject=Consulta">E-mail: info@bustillochico.com</a></li>
-              <li><i class="now-ui-icons ui-2_chat-round"></i> Teléfono: +54 9 11 59631004</li>
-              <li><i class="now-ui-icons ui-1_send"></i> Codigo Postal: 8400</li>
-            </ul>
-          </div>
-        </div>
-        <!-- Segunda fila con formulario de contacto -->
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <!-- <h3 >Tu consulta no molesta</h3> -->
-            <form id="contact-form">
-              <div class="input-group input-lg">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">
-                    <i class="now-ui-icons users_single-02"></i>
-                  </span>
                 </div>
-                <input type="text" class="form-control" id="name" placeholder="Nombre y Apellido...">
-              </div>
-              <div class="input-group input-lg">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">
-                    <i class="now-ui-icons ui-1_email-85"></i>
-                  </span>
+            </div>
+            <div class="banner-title">Departamentos <br> Dexule</div>
+            <a  class="banner-button" data-toggle="modal" data-target="#modalDeluxe">VER MÁS</a>
+        </div>
+    
+          <!-- Columna 2 -->
+          <div class="col-md-4 simple-banner mb-4 mb-md-custom">
+           <div class="banner-img">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/exterior/camaElastica2.png" class="d-block w-100" alt="cama elastica">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/exterior/aroBasquet.png" class="d-block w-100" alt="aro basquet">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/exterior/parrilla.png" class="d-block w-100" alt="parilla">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/exterior/fachada.png" class="d-block w-100" alt="fachada">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/exterior/mesa.png" class="d-block w-100" alt="mesa">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/exterior/herencia.png" class="d-block w-100" alt="herencia">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/exterior/sillas.png" class="d-block w-100" alt="sillas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/exterior/exterior.png" class="d-block w-100" alt="exterior">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/exterior/fachada2.png" class="d-block w-100" alt="fachada">
+                    </div>
                 </div>
-                <input type="text" class="form-control" id="email" placeholder="Email...">
-              </div>
-              <div class="textarea-container">
-                <textarea class="form-control" id="message" name="message" rows="4" cols="80"
-                  placeholder="Escribe un mensaje..."></textarea>
-              </div>
-              <div class="send-button">
-                <button type="button" class="btn btn-primary btn-round btn-block btn-lg"
-                  onclick="validateForm()">Enviar</button>
-              </div>
-              <div id="error-message" class="error-message"></div>
-            </form>
-          </div>
+           </div>
         </div>
-      </div>
-      <!-- Columna derecha con el mapa de Google Maps -->
-      <div class="col-md-6">
-        <div id="map">
-          <!-- Inserta tu mapa de Google Maps aquí -->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.915118523451!2d-71.50345682480038!3d-41.04898527134485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a75dae74f1ab9%3A0x8b4da4998be6cb0e!2sBustillo%20Chico!5e0!3m2!1ses-419!2sar!4v1704849160073!5m2!1ses-419!2sar"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="banner-title"> El exterior</div>
+            <a  class="banner-button" data-toggle="modal" data-target="#modalExterior">VER MÁS</a>
+          
         </div>
-      </div>
+    
+          <!-- Columna 3 -->
+          <div class="col-md-4 simple-banner mb-4 mb-md-custom">
+       <div class="banner-img">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/standard/living.png" class="d-block w-100" alt="living">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/standard/camasLiving.PNG" class="d-block w-100" alt="camas living">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/standard/matrimonial.PNG" class="d-block w-100" alt="matrimonial">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/standard/matrimonial2.PNG" class="d-block w-100" alt="cama matrimonial">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/standard/bañera.PNG" class="d-block w-100" alt="bañera">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/standard/baño2.PNG" class="d-block w-100" alt="baño">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/standard/cocina2.PNG" class="d-block w-100" alt="cocina">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/standard/baño3.PNG" class="d-block w-100" alt="baño">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/standard/living2.PNG" class="d-block w-100" alt="living">
+                </div>
+            </div>
+       </div>
     </div>
-  </div>
+            <div class="banner-title">Departamentos Standard</div>
+            <a  class="banner-button" data-toggle="modal" data-target="#modalStandard">VER MÁS</a>
+          </div>
+    
+        
+      </div>
 </div>
 
+<!-- Fondo oscurecido -->
+<div id="myModalBackground" class="modal-backdrop fade"></div>
+
+<!-- Modales--------------------- -->
+<!--DELUXE-->
+<div class="modal fade" id="modalDeluxe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl custom-height" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Título del Modal</h5> -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body ">
+              <!--First row (Mobile)-->
+  <div class="separator separator-primary"></div>
+  <div class="container-fluid">
+    <div class="container mt-5">
+      <div class="row d-md-none">
+        <div class="col-12">
+          <h3 class="text-center">Departamento Deluxe</h3>
+          <ul class="item-list">
+            <li><i class="now-ui-icons users_single-02"></i>Departamento Equipado para 6 personas. </li>
+            <li><i class="now-ui-icons location_bookmark"></i>Dos habitaciones y dos baños completos.</li>
+            <li><i class="now-ui-icons location_bookmark"></i>Dormitorio principal con cama King y otro dormitorio con cama queen o dos camas individuales.</li>
+            <li><i class="now-ui-icons location_bookmark"></i>Dos camas más en el living!</li>
+            <li><i class="now-ui-icons location_bookmark"></i>Vajilla completa, horno eléctrico, anafe eléctrico, microondas, heladera con freezer, cafetera, tostadora y hervidor.</li>
+            <li><i class="now-ui-icons location_bookmark"></i>Sábanas y toallas. Secador de pelo, shampoo, acondicionador y todo lo que necesites!</li>
+            <li><i class="now-ui-icons location_bookmark"></i>Posibilidad de agregar una practicuna, sujeta disponibilidad.</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/deluxe/livingGrande.png" class="d-block w-100" alt="Slide 1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/living.png" class="d-block w-100" alt="Slide 2">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/camasLiving.png" class="d-block w-100" alt="Slide 3">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/cocina.png" class="d-block w-100" alt="Slide 4">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/cocina2.png" class="d-block w-100" alt="Slide 5">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/cocina3.png" class="d-block w-100" alt="Slide 6">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/matrimonial2.png" class="d-block w-100" alt="Slide 7">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/matrimonial.png" class="d-block w-100" alt="Slide 8">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/detalleLampara.png" class="d-block w-100" alt="Slide 9">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/baño.png" class="d-block w-100" alt="Slide 10">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/bañera.png" class="d-block w-100" alt="Slide 11">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/ropero.png" class="d-block w-100" alt="Slide 12">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/camasCuartoChico.png" class="d-block w-100" alt="Slide 13">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/ventanaCuartoChico.png" class="d-block w-100" alt="Slide 14">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/bañoIntermedio.png" class="d-block w-100" alt="Slide 15">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/griferia.png" class="d-block w-100" alt="Slide 16">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/2doBaño.png" class="d-block w-100" alt="Slide 17">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/deluxe/bañera2.png" class="d-block w-100" alt="Slide 18">
+              </div>
+              
+            </div>
+            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+            <!--Desketop-->
+            <div class="row d-none d-md-flex">
+                <div class="col-md-6">
+                  <h3>Departamento Deluxe</h3>
+                  <ul class="item-list">
+                    <li> <i class="now-ui-icons users_single-02"></i>Departamento Equipado para 6 personas. </li>
+                    <li><i class="now-ui-icons location_bookmark"></i>Dos habitaciones y dos baños completos.</li>
+                    <li><i class="now-ui-icons location_bookmark"></i>Dormitorio principal  con cama King y  otro dormitorio con cama queen o  dos camas individuales.   </li>
+                    <li><i class="now-ui-icons location_bookmark"></i>Dos camas más en el living!</li>
+                    <li><i class="now-ui-icons location_bookmark"></i>Vajilla completa, horno eléctrico, anafe eléctrico, microondas, heladera con freezer, cafetera, tostadora y hervidor.</li>
+                    <li><i class="now-ui-icons location_bookmark"></i>Sábanas y toallas. Secador de pelo, shampoo, acondicionador y todo lo que necesites! </li>
+                    <li><i class="now-ui-icons location_bookmark"></i>Posibilidad de agregar una practicuna, sujeta disponibilidad. </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <div id="carousel11" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/img/deluxe/livingGrande.png" class="d-block w-100" alt="Slide 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/living.png" class="d-block w-100" alt="Slide 2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/camasLiving.png" class="d-block w-100" alt="Slide 3">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/cocina.png" class="d-block w-100" alt="Slide 4">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/cocina2.png" class="d-block w-100" alt="Slide 5">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/cocina3.png" class="d-block w-100" alt="Slide 6">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/matrimonial2.png" class="d-block w-100" alt="Slide 7">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/matrimonial.png" class="d-block w-100" alt="Slide 8">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/detalleLampara.png" class="d-block w-100" alt="Slide 9">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/baño.png" class="d-block w-100" alt="Slide 10">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/bañera.png" class="d-block w-100" alt="Slide 11">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/ropero.png" class="d-block w-100" alt="Slide 12">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/camasCuartoChico.png" class="d-block w-100" alt="Slide 13">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/ventanaCuartoChico.png" class="d-block w-100" alt="Slide 14">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/bañoIntermedio.png" class="d-block w-100" alt="Slide 15">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/griferia.png" class="d-block w-100" alt="Slide 16">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/2doBaño.png" class="d-block w-100" alt="Slide 17">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/deluxe/bañera2.png" class="d-block w-100" alt="Slide 18">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel11" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel11" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+          
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!--EXTERIOR-->
+ <div class="modal fade" id="modalExterior" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl custom-height" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Título del Modal</h5> -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body ">
+              <!--First row (Mobile)-->
+  <div class="separator separator-primary"></div>
+  <div class="container-fluid">
+    <div class="container mt-5">
+      <div class="row d-md-none">
+        <div class="col-12">
+            <h3 class="text-center">El exterior</h3>
+            <ul class="item-list">
+              <li><i class="now-ui-icons location_bookmark"></i>Parrilla y mesas</li>
+              <li><i class="now-ui-icons location_bookmark"></i>Cama elastica</li>
+              <li><i class="now-ui-icons location_bookmark"></i>Aro de basquet</li>
+              <li><i class="now-ui-icons location_bookmark"></i>Chimango</li>
+              <li><i class="now-ui-icons location_bookmark"></i>Deck con vista al lago</li>
+            </ul>
+          </div>
+        <div class="col-md-6">
+            <div id="carousel3" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/exterior/mesa.png" class="d-block w-100" alt="Slide 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/exterior/sillas.png" class="d-block w-100" alt="Slide 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/exterior/herencia.png" class="d-block w-100" alt="Slide 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/exterior/exterior.png" class="d-block w-100" alt="Slide 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/exterior/camaElastica2.png" class="d-block w-100" alt="Slide 5">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/exterior/camaElastica.png" class="d-block w-100" alt="Slide 6">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/exterior/aroBasquet.png" class="d-block w-100" alt="Slide 7">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/exterior/parrilla.png" class="d-block w-100" alt="Slide 8">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+            <!--Desketop-->
+            <div class="row d-none d-md-flex">
+                <div class="col-md-6 apartments">
+                    <h3>El exterior</h3>
+                    <ul class="item-list">
+                      <li><i class="now-ui-icons location_bookmark"></i>Parrilla y mesas</li>
+                      <li><i class="now-ui-icons location_bookmark"></i>Cama elastica</li>
+                      <li><i class="now-ui-icons location_bookmark"></i>Aro de basquet</li>
+                      <li><i class="now-ui-icons location_bookmark"></i>Chimango</li>
+                      <li><i class="now-ui-icons location_bookmark"></i>Deck con vista al lago</li>
+                    </ul>
+                  </div>
+                <div class="col-md-6">
+                    <div id="carousel33" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./assets/img/exterior/mesa.png" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/exterior/sillas.png" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/exterior/herencia.png" class="d-block w-100" alt="Slide 3">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/exterior/exterior.png" class="d-block w-100" alt="Slide 4">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/exterior/camaElastica2.png" class="d-block w-100" alt="Slide 5">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/exterior/aroBasquet.png" class="d-block w-100" alt="Slide 6">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/exterior/parrilla.png" class="d-block w-100" alt="Slide 7">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel33" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel33" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--STANDAR-->
+<div class="modal fade" id="modalStandard" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl custom-height" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Título del Modal</h5> -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body ">
+              <!--First row (Mobile)-->
+  <div class="separator separator-primary"></div>
+  <div class="container-fluid">
+    <div class="container mt-5">
+      <div class="row d-md-none">
+        <div class="col-12">
+          <h3 class="text-center">Departamento Standard</h3>
+          <ul class="item-list">
+            <li><i class="now-ui-icons users_single-02"></i>Departamento Equipado para 4 personas. </li>
+            <li><i class="now-ui-icons location_bookmark"></i> Habitación con cama queen (1.60 x 2.00) y un baño completo. </li>
+            <li><i class="now-ui-icons location_bookmark"></i>Living con sofá cama para dos personas. </li>
+            <li><i class="now-ui-icons location_bookmark"></i> Vajilla completa, horno eléctrico, anafe eléctrico, microondas, heladera con freezer, cafetera, tostadora y hervidor. </li>
+            <li><i class="now-ui-icons location_bookmark"></i>Sábanas y toallas. Secador de pelo, shampoo, acondicionador y todo lo que necesites!   </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+            <div id="carousel2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/standard/living.png" class="d-block w-100" alt="Slide 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/standard/living2.png" class="d-block w-100" alt="Slide 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/standard/camasLiving.png" class="d-block w-100" alt="Slide 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/standard/cocina2.png" class="d-block w-100" alt="Slide 4">
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="./assets/img/standard/cocina.png" class="d-block w-100" alt="Slide 5">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/standard/matrimonial.png" class="d-block w-100" alt="Slide 6">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/standard/matrimonial2.png" class="d-block w-100" alt="Slide 7">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/standard/closet.png" class="d-block w-100" alt="Slide 8">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/standard/baño2.png" class="d-block w-100" alt="Slide 9">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/standard/baño3.png" class="d-block w-100" alt="Slide 10">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/standard/bañera.png" class="d-block w-100" alt="Slide 11">
+                  </div>
+                  
+                </div>
+                <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+            <!--Desketop-->
+            <div class="row d-none d-md-flex">
+                <div class="col-md-6">
+                  <h3>Departamento Standard</h3>
+                  <ul class="item-list">
+                    <li><i class="now-ui-icons users_single-02"></i>Departamento Equipado para 4 personas. </li>
+                    <li><i class="now-ui-icons location_bookmark"></i> Habitación con cama queen (1.60 x 2.00) y un baño completo. </li>
+                    <li><i class="now-ui-icons location_bookmark"></i>Living con sofá cama para dos personas. </li>
+                    <li><i class="now-ui-icons location_bookmark"></i> Vajilla completa, horno eléctrico, anafe eléctrico, microondas, heladera con freezer, cafetera, tostadora y hervidor. </li>
+                    <li><i class="now-ui-icons location_bookmark"></i>Sábanas y toallas. Secador de pelo, shampoo, acondicionador y todo lo que necesites!   </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                    <div id="carousel22" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./assets/img/standard/living.png" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/standard/living2.png" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/standard/camasLiving.png" class="d-block w-100" alt="Slide 3">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/standard/cocina2.png" class="d-block w-100" alt="Slide 4">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/standard/cocina.png" class="d-block w-100" alt="Slide 5">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/standard/matrimonial.png" class="d-block w-100" alt="Slide 6">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/standard/matrimonial2.png" class="d-block w-100" alt="Slide 7">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/standard/closet.png" class="d-block w-100" alt="Slide 8">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/standard/baño2.png" class="d-block w-100" alt="Slide 9">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/standard/baño3.png" class="d-block w-100" alt="Slide 10">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/img/standard/bañera.png" class="d-block w-100" alt="Slide 11">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel22" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel22" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
 
 
 
-  <!--   Core JS Files   -->
-  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-  <script src="./assets/js/form.js" type="text/javascript"></script>
-  <script src="./assets/js/loadContent.js" type="text/javascript"></script>
+    <!------------------------Location----------->
+<div class="section section-contact-us" id="section-contact-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-center">
+          <h2 class="title">Nos encontras en</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Columna izquierda con items de la lista y formulario de contacto -->
+        <div class="col-md-6">
+          <!-- Primera fila con items de la lista -->
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="item-list">
+                <li><i class="now-ui-icons location_pin"></i> Avenida Ezequiel Bustillo 21679, San Carlos de Bariloche</li>
+                <li><i class="now-ui-icons ui-1_email-85"></i> <a href="mailto:info@bustillochico.com?Subject=Consulta">E-mail: info@bustillochico.com</a></li>
+                <li><i class="now-ui-icons ui-2_chat-round"></i> Teléfono: +54 9 11 59631004</li>
+                <li><i class="now-ui-icons ui-1_send"></i> Codigo Postal: 8400</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Segunda fila con formulario de contacto -->
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <!-- <h3 >Tu consulta no molesta</h3> -->
+              <form id="contact-form">
+                <div class="input-group input-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="now-ui-icons users_single-02"></i>
+                    </span>
+                  </div>
+                  <input type="text" class="form-control" id="name" placeholder="Nombre y Apellido...">
+                </div>
+                <div class="input-group input-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="now-ui-icons ui-1_email-85"></i>
+                    </span>
+                  </div>
+                  <input type="text" class="form-control" id="email" placeholder="Email...">
+                </div>
+                <div class="textarea-container">
+                  <textarea class="form-control" id="message" name="message" rows="4" cols="80"
+                    placeholder="Escribe un mensaje..."></textarea>
+                </div>
+                <div class="send-button">
+                  <button type="button" class="btn btn-primary btn-round btn-block btn-lg"
+                    onclick="validateForm()">Enviar</button>
+                </div>
+                <div id="error-message" class="error-message"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Columna derecha con el mapa de Google Maps -->
+        <div class="col-md-6">
+          <div id="map">
+            <!-- Inserta tu mapa de Google Maps aquí -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.915118523451!2d-71.50345682480038!3d-41.04898527134485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a75dae74f1ab9%3A0x8b4da4998be6cb0e!2sBustillo%20Chico!5e0!3m2!1ses-419!2sar!4v1704849160073!5m2!1ses-419!2sar"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    $(document).ready(function(){
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myModalBackground').fadeIn();
+        });
 
-  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+        $('#myModal').on('hidden.bs.modal', function () {
+            $('#myModalBackground').fadeOut();
+        });
+    });
+</script>
+  
+  
+    <!--   Core JS Files   -->
+    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./assets/js/form.js" type="text/javascript"></script>
+    <script src="./assets/js/loadContent.js" type="text/javascript"></script>
+  
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+  
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  
+  
+    <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+    <script src="./assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+  
+    <!-- Librería Validator.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.6.0/validator.min.js"></script>
 
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-
-
-  <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-  <script src="./assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
-
-  <!-- Librería Validator.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.6.0/validator.min.js"></script>
 </body>
-
 </html>
