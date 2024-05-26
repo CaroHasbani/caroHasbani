@@ -4632,6 +4632,8 @@ img {
   border-top: none;
   padding-right: 24px;
   padding-bottom: 16px;
+  /* margin-bottom: -20px; */
+  z-index: 999;
   padding-left: 24px;
   -webkit-justify-content: space-between;
   /* Safari 6.1+ */
@@ -4639,10 +4641,14 @@ img {
 }
 
 .modal-content .modal-footer button {
-  margin: 0;
+  /* margin: 0;
   padding-left: 16px;
   padding-right: 16px;
-  width: auto;
+  width: auto; */
+  position: absolute;
+  right: 27px;
+  top: 30px;
+  outline: 0;
 }
 
 .modal-content .modal-footer button.pull-left {
@@ -4650,6 +4656,7 @@ img {
   padding-right: 5px;
   position: relative;
   left: -5px;
+ 
 }
 
 .modal-content .modal-body+.modal-footer {
