@@ -4632,7 +4632,7 @@ img {
   border-top: none;
   padding-right: 24px;
   padding-bottom: 16px;
-  /* margin-bottom: -20px; */
+  margin-bottom: -20px;
   z-index: 999;
   padding-left: 24px;
   -webkit-justify-content: space-between;
