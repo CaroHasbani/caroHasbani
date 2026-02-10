@@ -386,4 +386,9 @@ footer a:hover {
   .services-row--secondary {
     display: none;
   }
+
+  .services-row {
+    --bs-gutter-x: 16px;
+    --bs-gutter-y: 16px;
+  }
 }
