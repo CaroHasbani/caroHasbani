@@ -1,0 +1,172 @@
+{
+  "items": [
+    {
+      "title": "Automotores lineas personales",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "plus",
+      "color": "#0b5ed7",
+      "bg": "#e8f0ff"
+    },
+    {
+      "title": "Motovehiculos",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "cart",
+      "color": "#ff6b4a",
+      "bg": "#fff2e8"
+    },
+    {
+      "title": "Flotas de vehiculos, personal y comercial",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "home",
+      "color": "#16a34a",
+      "bg": "#ecfdf3"
+    },
+    {
+      "title": "Combinado familiar",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "shield",
+      "color": "#475569",
+      "bg": "#f1f5f9"
+    },
+    {
+      "title": "Integral comercio",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "warning",
+      "color": "#e11d48",
+      "bg": "#fff1f2"
+    },
+    {
+      "title": "Integral consorcio",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "cycle",
+      "color": "#0891b2",
+      "bg": "#ecfeff"
+    },
+    {
+      "title": "Riesgos del trabajo (ART)",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "briefcase",
+      "color": "#0b5ed7",
+      "bg": "#e8f0ff"
+    },
+    {
+      "title": "Vida obligatorio & vida colectivo",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "heart",
+      "color": "#ff6b4a",
+      "bg": "#fff2e8"
+    },
+    {
+      "title": "Accidentes personales",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "spark",
+      "color": "#16a34a",
+      "bg": "#ecfdf3"
+    },
+    {
+      "title": "Saldo deudor",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "doc",
+      "color": "#475569",
+      "bg": "#f1f5f9"
+    },
+    {
+      "title": "Cauciones",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "lock",
+      "color": "#e11d48",
+      "bg": "#fff1f2"
+    },
+    {
+      "title": "Seguro tecnico",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "tools",
+      "color": "#0891b2",
+      "bg": "#ecfeff"
+    },
+    {
+      "title": "Embarcaciones de placer",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "boat",
+      "color": "#0b5ed7",
+      "bg": "#e8f0ff"
+    },
+    {
+      "title": "Incendio",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "fire",
+      "color": "#ff6b4a",
+      "bg": "#fff2e8"
+    },
+    {
+      "title": "Responsabilidad civil",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "balance",
+      "color": "#16a34a",
+      "bg": "#ecfdf3"
+    },
+    {
+      "title": "Todo riesgo operativo",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "gear",
+      "color": "#475569",
+      "bg": "#f1f5f9"
+    },
+    {
+      "title": "Transporte terrestre de mercaderias",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "truck",
+      "color": "#e11d48",
+      "bg": "#fff1f2"
+    },
+    {
+      "title": "Importacion/exportacion",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "globe",
+      "color": "#0891b2",
+      "bg": "#ecfeff"
+    },
+    {
+      "title": "Seguros para el agro",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "leaf",
+      "color": "#0b5ed7",
+      "bg": "#e8f0ff"
+    },
+    {
+      "title": "Seguros para construcciones, refacciones, ampliaciones y montajes",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "build",
+      "color": "#ff6b4a",
+      "bg": "#fff2e8"
+    },
+    {
+      "title": "Planes para grupos de afinidad",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "users",
+      "color": "#16a34a",
+      "bg": "#ecfdf3"
+    },
+    {
+      "title": "Desarrollo de concesionarias automotores",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "car",
+      "color": "#475569",
+      "bg": "#f1f5f9"
+    },
+    {
+      "title": "Seguros de credito",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "credit",
+      "color": "#e11d48",
+      "bg": "#fff1f2"
+    },
+    {
+      "title": "Seguros de extension de garantias",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "icon": "warranty",
+      "color": "#0891b2",
+      "bg": "#ecfeff"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<section id="contacto">
+
+
+<div class="container" style="margin-bottom: 25px; margin-top: 25px;">
+    <div class="text-center mb-4">
+      <h2 class="section-title mb-0">Consultanos</h2>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <div class="col-lg-6">
+        <div class="card quote-card p-4">
+          
+          <form class="row g-3" action="https://formsubmit.co/hasbanicarolina@gmail.com" method="POST" id="contactForm">
+            <div class="col-md-6">
+              <label class="form-label small fw-semibold">Nombre y Apellido</label>
+              <input type="text" class="form-control" placeholder="Ej: Juan Perez"  id="name" name="nombre" required data-error="Por favor ingresa tu nombre" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label small fw-semibold">Telefono</label>
+              <input type="tel" class="form-control" placeholder="11 1234 5678" required data-error="Por favor ingresa tu telefono" name="telefono" id="telefono"/>
+            </div>
+            <div class="col-12">
+              <label class="form-label small fw-semibold">Email</label>
+              <input type="email" class="form-control" placeholder="juan@ejemplo.com" name="email" required data-error="Por favor ingresá tu mail" id="email" />
+            </div>
+             <div class="col-12">
+              <label class="form-label small fw-semibold">Tu mensaje</label>
+              <input type="mensaje" class="form-control" name="mensaje" required data-error="Por favor ingresá tu mensaje" id="mensaje" />
+            </div>
+            <div class="col-12">
+              <button class="btn btn-cta w-100" id="submit" data-callback="onSubmit"  type="submit">Enviar Consulta</button>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+            </div>
+          </form>
+        </div>
+           </div>
+              </div>
+</section>
+
