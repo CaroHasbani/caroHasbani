@@ -140,6 +140,8 @@ a {
 
 .services-row {
   margin-bottom: 16px;
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
 }
 
 .carousel {
