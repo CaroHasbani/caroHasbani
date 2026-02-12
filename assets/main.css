@@ -214,15 +214,60 @@ a {
   width: 100%;
   object-fit: cover;
 }
+
+.why-values-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 30px;
+}
+
+.why-value-item {
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 16px;
+}
+
+.why-value-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.why-value-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 107, 74, 0.12);
+  color: var(--brand-orange);
+  font-weight: 800;
+  font-size: 0.95rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.why-value-icon .bi {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.why-value-title {
+  color: var(--brand-blue-dark);
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
 .why-value-copy {
-  color: rgba(255, 255, 255, 0.85);
-  line-height: 1.45;
+  color: var(--text-muted);
+  line-height: 1.6;
 }
 
 .why-steps {
   background: #0b3b93;
   border-radius: 20px;
-  padding: 28px;
+  padding: 36px;
   box-shadow: var(--card-shadow);
 }
 
@@ -233,12 +278,13 @@ a {
 }
 
 .why-step-circle {
-  width: 56px;
-  height: 56px;
+  width: 48px;
+  height: 48px;
   border-radius: 999px;
   background: #fff;
   color: #0b3b93;
   font-weight: 800;
+  font-size: 1.35rem;
   display: grid;
   place-items: center;
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
@@ -448,6 +494,10 @@ footer a:hover {
   .why-values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+
+  .why-steps {
+    padding: 28px;
   }
 
   .footer-ssn {
