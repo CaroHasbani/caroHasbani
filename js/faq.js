@@ -36,13 +36,13 @@ function buildFaqUI() {
       wrapper.className = "accordion-item";
       wrapper.innerHTML = `
         <h2 class="accordion-header" id="${headerId}">
-          <button class="accordion-button ${index === 0 ? "" : "collapsed"}" type="button"
-            data-bs-toggle="collapse" data-bs-target="#${itemId}" aria-expanded="${index === 0 ? "true" : "false"}"
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse" data-bs-target="#${itemId}" aria-expanded="false"
             aria-controls="${itemId}">
             ${item.q}
           </button>
         </h2>
-        <div id="${itemId}" class="accordion-collapse collapse ${index === 0 ? "show" : ""}"
+        <div id="${itemId}" class="accordion-collapse collapse"
           aria-labelledby="${headerId}" data-bs-parent="#faq-accordion">
           <div class="accordion-body">${item.a}</div>
         </div>
