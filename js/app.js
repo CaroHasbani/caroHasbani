@@ -69,7 +69,9 @@ function setupContactFormSubmission() {
       const whatsappText = [
         "Hola, quiero hacer una consulta.",
         "",
-        `Nombre: ${nombre}`
+        `Nombre: ${nombre}`,
+        // `Telefono: ${telefono}`,
+        // `Email: ${email}`,
         `Mensaje: ${mensaje}`
       ].join("\n");
 
