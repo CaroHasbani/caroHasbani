@@ -31,7 +31,17 @@ async function buildServicesCarousel() {
     users: '<path d="M7 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" stroke-width="2"></path><path d="M17 14a4 4 0 1 1 0-8" stroke-width="2"></path><path d="M3 20a4 4 0 0 1 8 0" stroke-width="2"></path><path d="M13 20a4 4 0 0 1 8 0" stroke-width="2"></path>',
     car: '<path d="M3 13l1-3h16l1 3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="7" cy="17" r="2" stroke-width="2"></circle><circle cx="17" cy="17" r="2" stroke-width="2"></circle>',
     credit: '<rect x="3" y="6" width="18" height="12" rx="2" stroke-width="2"></rect><path d="M3 10h18" stroke-width="2"></path>',
-    warranty: '<circle cx="12" cy="12" r="8" stroke-width="2"></circle><path d="M12 8v4l2 2" stroke-width="2"></path>'
+    warranty: '<circle cx="12" cy="12" r="8" stroke-width="2"></circle><path d="M12 8v4l2 2" stroke-width="2"></path>',
+    plane: '<path d="M2 12l20-8-6 8 6 8-20-8z" stroke-width="2" stroke-linejoin="round"></path>',
+    building: '<rect x="4" y="3" width="10" height="18" rx="1" stroke-width="2"></rect><path d="M8 7h2M8 11h2M8 15h2M14 10h6v11h-6" stroke-width="2" stroke-linecap="round"></path>',
+    stethoscope: '<path d="M6 4v4a4 4 0 0 0 8 0V4M10 16a4 4 0 1 0 8 0v-1" stroke-width="2" stroke-linecap="round"></path><circle cx="19" cy="13" r="2" stroke-width="2"></circle>',
+    umbrella: '<path d="M3 12a9 9 0 0 1 18 0H3z" stroke-width="2"></path><path d="M12 12v6a2 2 0 0 0 4 0" stroke-width="2" stroke-linecap="round"></path>',
+    helmet: '<path d="M4 13a8 8 0 0 1 16 0v3H4z" stroke-width="2"></path><path d="M9 16v2h6v-2" stroke-width="2"></path>',
+    hospital: '<rect x="4" y="3" width="16" height="18" rx="2" stroke-width="2"></rect><path d="M12 7v6M9 10h6" stroke-width="2" stroke-linecap="round"></path>',
+    phone: '<rect x="8" y="2" width="8" height="20" rx="2" stroke-width="2"></rect><path d="M11 18h2" stroke-width="2" stroke-linecap="round"></path>',
+    bolt: '<path d="M13 2L6 13h5l-1 9 8-12h-5l0-8z" stroke-width="2" stroke-linejoin="round"></path>',
+    cash: '<rect x="3" y="6" width="18" height="12" rx="2" stroke-width="2"></rect><circle cx="12" cy="12" r="3" stroke-width="2"></circle><path d="M3 10h3M18 14h3" stroke-width="2"></path>',
+    map: '<path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z" stroke-width="2" stroke-linejoin="round"></path><path d="M9 4v14M15 6v14" stroke-width="2"></path>'
   };
 
   function renderCard(item, index) {

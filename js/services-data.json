@@ -1,19 +1,22 @@
 {
   "items": [
     {
-      "title": "Automotores lineas personales",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "icon": "plus",
+      "title": "Automotores ",
+      "subtitle": "Cotizá ahora con las mejores compañias",
+      "icon": "car",
       "color": "#0b5ed7",
       "bg": "#e8f0ff"
     },
     {
-      "title": "Motovehiculos",
+      "title": "Motos",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "icon": "cart",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
     },
+
+
+    
     {
       "title": "Flotas de vehiculos, personal y comercial",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -22,8 +25,8 @@
       "bg": "#ecfdf3"
     },
     {
-      "title": "Combinado familiar",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "title": "Hogar",
+      "subtitle": "Cuida tu casa, viví tranquilo",
       "icon": "shield",
       "color": "#475569",
       "bg": "#f1f5f9"

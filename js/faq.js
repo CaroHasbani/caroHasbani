@@ -56,4 +56,10 @@ function buildFaqUI() {
   renderAccordion();
 }
 
+
+
+
+
+
+
 document.addEventListener("components:loaded", buildFaqUI);

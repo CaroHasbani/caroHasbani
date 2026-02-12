@@ -35,6 +35,65 @@ function setupContactFormPhoneValidation() {
   });
 }
 
+function setupContactFormSubmission() {
+  const forms = document.querySelectorAll("#contactForm");
+
+  forms.forEach((form) => {
+    if (form.dataset.submitBound === "true") return;
+    form.dataset.submitBound = "true";
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      const formData = new FormData(form);
+      const nombre = String(formData.get("nombre") || "").trim();
+      const telefono = String(formData.get("telefono") || "").trim();
+      const email = String(formData.get("email") || "").trim();
+      const mensaje = String(formData.get("mensaje") || "").trim();
+
+      const validPhone = /^[0-9]{1,13}$/.test(telefono);
+      if (!validPhone) {
+        const phoneInput = form.querySelector("#telefono");
+        if (phoneInput) {
+          phoneInput.setCustomValidity("Ingresa solo numeros (hasta 13 digitos).");
+          phoneInput.reportValidity();
+        }
+        return;
+      }
+
+      const whatsappText = [
+        "Hola, quiero hacer una consulta.",
+        "",
+        `Nombre: ${nombre}`
+        `Mensaje: ${mensaje}`
+      ].join("\n");
+
+      window.open(
+        `https://wa.me/5491167840614?text=${encodeURIComponent(whatsappText)}`,
+        "_blank",
+        "noopener,noreferrer"
+      );
+
+      fetch("https://formsubmit.co/ajax/hasbanicarolina@gmail.com", {
+        method: "POST",
+        headers: {
+          Accept: "application/json"
+        },
+        body: formData
+      }).catch((error) => {
+        console.error("Error enviando email:", error);
+      });
+
+      form.reset();
+    });
+  });
+}
+
 
 (async () => {
   await loadComponent("app", "components/header.html");
@@ -47,5 +106,6 @@ function setupContactFormPhoneValidation() {
   // await loadComponent("app", "components/contact-form.html");
   await loadComponent("app", "components/footer.html");
   setupContactFormPhoneValidation();
+  setupContactFormSubmission();
   document.dispatchEvent(new Event("components:loaded"));
 })();
