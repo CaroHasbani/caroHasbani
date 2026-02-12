@@ -75,14 +75,15 @@ function setupContactFormSubmission() {
         `Mensaje: ${mensaje}`
       ].join("\n");
 
-      window.open(
-        `https://wa.me/5491167840614?text=${encodeURIComponent(whatsappText)}`,
-        "_blank",
-        "noopener,noreferrer"
-      );
+      const whatsappUrl = `https://api.whatsapp.com/send?phone=5491167840614&text=${encodeURIComponent(
+        whatsappText
+      )}`;
+
+      const isMobile = /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
 
       fetch("https://formsubmit.co/ajax/hasbanicarolina@gmail.com", {
         method: "POST",
+        keepalive: true,
         headers: {
           Accept: "application/json"
         },
@@ -90,6 +91,15 @@ function setupContactFormSubmission() {
       }).catch((error) => {
         console.error("Error enviando email:", error);
       });
+
+      if (isMobile) {
+        window.location.href = whatsappUrl;
+      } else {
+        const popup = window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+        if (!popup) {
+          window.location.href = whatsappUrl;
+        }
+      }
 
       form.reset();
     });
