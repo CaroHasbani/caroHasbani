@@ -196,6 +196,11 @@ a {
   color: var(--brand-blue);
 }
 
+.service-icon .bi {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
 .why-section {
   background: linear-gradient(120deg, #3b82f6, #1d4ed8);
   color: #fff;
@@ -224,6 +229,10 @@ a {
 .why-value-item {
   border-bottom: 1px solid #e2e8f0;
   padding-bottom: 16px;
+}
+
+.why-values-grid .why-value-item:nth-last-child(-n + 2) {
+  border-bottom: none;
 }
 
 .why-value-head {
@@ -525,6 +534,14 @@ footer a:hover {
   .why-values-grid {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+
+  .why-values-grid .why-value-item {
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  .why-values-grid .why-value-item:last-child {
+    border-bottom: none;
   }
 
   .why-steps {

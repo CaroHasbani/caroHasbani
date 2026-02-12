@@ -10,7 +10,7 @@
     {
       "title": "Motos",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "icon": "cart",
+      "icon": "cycle",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
     },
@@ -20,28 +20,28 @@
     {
       "title": "Flotas de vehiculos, personal y comercial",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "icon": "home",
+      "icon": "carFill",
       "color": "#16a34a",
       "bg": "#ecfdf3"
     },
     {
       "title": "Hogar",
       "subtitle": "Cuida tu casa, viví tranquilo",
-      "icon": "shield",
+      "icon": "home",
       "color": "#475569",
       "bg": "#f1f5f9"
     },
     {
       "title": "Integral comercio",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "icon": "warning",
+      "icon": "shop",
       "color": "#e11d48",
       "bg": "#fff1f2"
     },
     {
       "title": "Integral consorcio",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "icon": "cycle",
+      "icon": "building",
       "color": "#0891b2",
       "bg": "#ecfeff"
     },
@@ -104,14 +104,14 @@
     {
       "title": "Responsabilidad civil",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "icon": "balance",
+      "icon": "person",
       "color": "#16a34a",
       "bg": "#ecfdf3"
     },
     {
       "title": "Todo riesgo operativo",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "icon": "gear",
+      "icon": "shield",
       "color": "#475569",
       "bg": "#f1f5f9"
     },
@@ -132,7 +132,7 @@
     {
       "title": "Seguros para el agro",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "icon": "leaf",
+      "icon": "flower",
       "color": "#0b5ed7",
       "bg": "#e8f0ff"
     },
