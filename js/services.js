@@ -52,6 +52,10 @@ async function buildServicesCarousel() {
   function renderCard(item, index) {
     const title = item.title || "Servicio";
     const subtitle = item.subtitle || "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+    const hoverText =
+      item.hoverText ||
+      item.description ||
+      `${subtitle} Te asesoramos para elegir la cobertura ideal para este servicio.`;
     const color = item.color || "#0b5ed7";
     const bg = item.bg || "#e8f0ff";
     const iconKey = item.icon || "plus";
@@ -59,13 +63,21 @@ async function buildServicesCarousel() {
     const iconMarkup = `<i class="bi ${iconClass}" aria-hidden="true"></i>`;
     return `
       <div class="col-md-4">
-        <div class="card service-card h-100 p-4">
-          <div class="service-icon mb-3" style="background:${bg};color:${color};">
-            ${iconMarkup}
+        <article class="service-card h-100">
+          <div class="service-card-inner">
+            <div class="service-card-face service-card-front p-4">
+              <div class="service-icon mb-3" style="background:${bg};color:${color};">
+                ${iconMarkup}
+              </div>
+              <h5 class="fw-bold">${title}</h5>
+              <p class="text-muted small mb-0">${subtitle}</p>
+            </div>
+            <div class="service-card-face service-card-back p-4">
+              <h5 class="fw-bold">${title}</h5>
+              <p class="mb-0">${hoverText}</p>
+            </div>
           </div>
-          <h5 class="fw-bold">${title}</h5>
-          <p class="text-muted small mb-0">${subtitle}</p>
-        </div>
+        </article>
       </div>
     `;
   }
