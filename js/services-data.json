@@ -10,7 +10,7 @@
     },
     {
       "title": "Motos",
-      "subtitle": "Proteccion pensada para tu movilidad diaria.",
+      "subtitle": "Protección pensada para tu movilidad diaria.",
       "hoverText": "Armamos un plan para tu moto segun uso personal o laboral, con asistencia y respaldo en todo momento.",
       "icon": "cycle",
       "color": "#ff6b4a",
@@ -19,7 +19,7 @@
     {
       "title": "Flotas de vehiculos, personal y comercial",
       "subtitle": "Cobertura integral para equipos y operacion.",
-      "hoverText": "Centraliza la proteccion de tu flota con administracion simple, control de polizas y respuesta rapida ante siniestros.",
+      "hoverText": "Centraliza la proteccion de tu flota con administración simple, control de polizas y respuesta rápida ante siniestros.",
       "icon": "carFill",
       "color": "#16a34a",
       "bg": "#ecfdf3"
@@ -34,7 +34,7 @@
     },
     {
       "title": "Integral comercio",
-      "subtitle": "Respaldo para tu negocio todos los dias.",
+      "subtitle": "Respaldo para tu negocio todos los días.",
       "hoverText": "Cubrimos local, mercaderia y responsabilidad civil para que tu comercio siga operando sin frenar.",
       "icon": "shop",
       "color": "#e11d48",
@@ -51,7 +51,7 @@
     {
       "title": "Riesgos del trabajo (ART)",
       "subtitle": "Proteccion laboral para tu equipo.",
-      "hoverText": "Gestionamos ART con enfoque preventivo, cumplimiento normativo y acompanamiento en cada incidente.",
+      "hoverText": "Gestionamos ART con enfoque preventivo, cumplimiento normativo y acompañamiento en cada incidente.",
       "icon": "briefcase",
       "color": "#0b5ed7",
       "bg": "#e8f0ff"
@@ -66,8 +66,8 @@
     },
     {
       "title": "Accidentes personales",
-      "subtitle": "Respaldo economico ante imprevistos.",
-      "hoverText": "Disena una cobertura a medida para vos o tu equipo frente a accidentes dentro y fuera de la actividad laboral.",
+      "subtitle": "Trabajá de forma segura",
+      "hoverText": "Diseña una cobertura a medida para vos o tu equipo frente a accidentes dentro y fuera de la actividad laboral.",
       "icon": "spark",
       "color": "#16a34a",
       "bg": "#ecfdf3"
@@ -90,7 +90,7 @@
     },
     {
       "title": "Seguro tecnico",
-      "subtitle": "Cobertura para equipos y tecnologia.",
+      "subtitle": "Cobertura para equipos y tecnología.",
       "hoverText": "Protege maquinaria, equipamiento electronico y herramientas clave contra fallas, danos y robos.",
       "icon": "tools",
       "color": "#0891b2",
@@ -106,7 +106,7 @@
     },
     {
       "title": "Incendio",
-      "subtitle": "Proteccion esencial para bienes y patrimonio.",
+      "subtitle": "Protección esencial para bienes y patrimonio.",
       "hoverText": "Cobertura ante incendio, explosion y danos derivados para cuidar tu inversion y continuidad operativa.",
       "icon": "fire",
       "color": "#ff6b4a",
@@ -137,9 +137,9 @@
       "bg": "#fff1f2"
     },
     {
-      "title": "Importacion/exportacion",
+      "title": "Importación/exportación",
       "subtitle": "Cobertura para comercio exterior.",
-      "hoverText": "Protegemos operaciones de importacion y exportacion con soluciones alineadas a normas y riesgos logisticos.",
+      "hoverText": "Protegemos operaciones de importación y exportación con soluciones alineadas a normas y riesgos logisticos.",
       "icon": "globe",
       "color": "#0891b2",
       "bg": "#ecfeff"
@@ -171,7 +171,7 @@
     {
       "title": "Desarrollo de concesionarias automotores",
       "subtitle": "Programas de seguros para ventas y postventa.",
-      "hoverText": "Impulsa tu concesionaria con propuestas de seguros integradas al proceso comercial y fidelizacion de clientes.",
+      "hoverText": "Impulsa tu concesionaria con propuestas de seguros integradas al proceso comercial y fidelización de clientes.",
       "icon": "car",
       "color": "#475569",
       "bg": "#f1f5f9"

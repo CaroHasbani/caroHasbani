@@ -185,8 +185,8 @@ a {
 }
 
 .services-row {
-  margin-bottom: 16px;
-  --bs-gutter-x: 0;
+  margin-bottom: 20px;
+  --bs-gutter-x: 20px;
   --bs-gutter-y: 0;
 }
 
@@ -521,6 +521,9 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* filter: grayscale(0.2);  */
+  /* max-width: 1px; */
+  transition: all 0.2s ease; 
 }
 
 .footer-ssn-logo img {
@@ -579,8 +582,8 @@ footer a:hover {
   }
 
   .services-row {
-    --bs-gutter-x: 16px;
-    --bs-gutter-y: 16px;
+    --bs-gutter-x: 20px;
+    --bs-gutter-y: 20px;
   }
 
   .service-card {
