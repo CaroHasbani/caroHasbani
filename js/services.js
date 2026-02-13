@@ -47,7 +47,7 @@ async function buildServicesCarousel() {
     building: "bi bi-buildings",
     shop: "bi bi-shop",
     carFill: "bi bi-car-front-fill"
-  };
+    };
 
   function renderCard(item, index) {
     const title = item.title || "Servicio";

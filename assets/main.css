@@ -42,6 +42,10 @@ a {
   letter-spacing: -0.02em;
 }
 
+#services.section {
+  padding-top: 40px;
+}
+
 .shadow-soft {
   box-shadow: var(--soft-shadow);
 }
@@ -85,6 +89,14 @@ a {
 
 .hero {
   background: radial-gradient(circle at top left, #f7fbff 0%, #dfe9ff 55%, #c8dcff 100%);
+}
+
+.hero.section {
+  padding: 28px 0;
+}
+
+.hero .display-4 {
+  font-size: clamp(1.9rem, 3.9vw, 3.5rem);
 }
 
 .hero-image {
@@ -413,9 +425,9 @@ a {
 
 .partners-grid img {
   max-height: 38px;
-  filter: grayscale(1);
-  opacity: 0.7;
-  transition: all 0.2s ease;
+  /* filter: grayscale(1); */
+  /* opacity: 0.7;
+  transition: all 0.2s ease; */
 }
 
 .partners-grid img:hover {
@@ -519,6 +531,14 @@ footer a:hover {
 
 @media (max-width: 991px) {
   .section {
+    padding: 56px 0;
+  }
+
+  #services.section {
+    padding-top: 44px;
+  }
+
+  .hero.section {
     padding: 56px 0;
   }
 
