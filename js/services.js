@@ -55,7 +55,7 @@ async function buildServicesCarousel() {
     const hoverText =
       item.hoverText ||
       item.description ||
-      `${subtitle} Te asesoramos para elegir la cobertura ideal para este servicio.`;
+      `Te asesoramos en ${title.toLowerCase()} con opciones claras, comparativas reales y acompanamiento en todo el proceso.`;
     const color = item.color || "#0b5ed7";
     const bg = item.bg || "#e8f0ff";
     const iconKey = item.icon || "plus";

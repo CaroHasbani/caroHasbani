@@ -2,171 +2,192 @@
   "items": [
     {
       "title": "Automotores ",
-      "subtitle": "Cotizá ahora con las mejores compañias",
+      "subtitle": "Cotiza ahora con las mejores companias",
+      "hoverText": "Compara coberturas para tu auto en minutos y elegi la opcion que mejor protege tu vehiculo y tu bolsillo.",
       "icon": "car",
       "color": "#0b5ed7",
       "bg": "#e8f0ff"
     },
     {
       "title": "Motos",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Proteccion pensada para tu movilidad diaria.",
+      "hoverText": "Armamos un plan para tu moto segun uso personal o laboral, con asistencia y respaldo en todo momento.",
       "icon": "cycle",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
     },
-
-
-    
     {
       "title": "Flotas de vehiculos, personal y comercial",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Cobertura integral para equipos y operacion.",
+      "hoverText": "Centraliza la proteccion de tu flota con administracion simple, control de polizas y respuesta rapida ante siniestros.",
       "icon": "carFill",
       "color": "#16a34a",
       "bg": "#ecfdf3"
     },
     {
       "title": "Hogar",
-      "subtitle": "Cuida tu casa, viví tranquilo",
+      "subtitle": "Cuida tu casa, vivi tranquilo",
+      "hoverText": "Protege tu vivienda y tus bienes frente a robo, incendio y danos, con asistencia para emergencias del hogar.",
       "icon": "home",
       "color": "#475569",
       "bg": "#f1f5f9"
     },
     {
       "title": "Integral comercio",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Respaldo para tu negocio todos los dias.",
+      "hoverText": "Cubrimos local, mercaderia y responsabilidad civil para que tu comercio siga operando sin frenar.",
       "icon": "shop",
       "color": "#e11d48",
       "bg": "#fff1f2"
     },
     {
       "title": "Integral consorcio",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Seguridad para edificios y copropietarios.",
+      "hoverText": "Cobertura para partes comunes, responsabilidad del consorcio y eventos imprevistos con asesoramiento profesional.",
       "icon": "building",
       "color": "#0891b2",
       "bg": "#ecfeff"
     },
     {
       "title": "Riesgos del trabajo (ART)",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Proteccion laboral para tu equipo.",
+      "hoverText": "Gestionamos ART con enfoque preventivo, cumplimiento normativo y acompanamiento en cada incidente.",
       "icon": "briefcase",
       "color": "#0b5ed7",
       "bg": "#e8f0ff"
     },
     {
       "title": "Vida obligatorio & vida colectivo",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Cobertura para empleados y grupos.",
+      "hoverText": "Implementamos seguros de vida obligatorios y colectivos adaptados a la estructura de tu empresa.",
       "icon": "heart",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
     },
     {
       "title": "Accidentes personales",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Respaldo economico ante imprevistos.",
+      "hoverText": "Disena una cobertura a medida para vos o tu equipo frente a accidentes dentro y fuera de la actividad laboral.",
       "icon": "spark",
       "color": "#16a34a",
       "bg": "#ecfdf3"
     },
     {
       "title": "Saldo deudor",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Resguardo para compromisos financieros.",
+      "hoverText": "Cubrimos saldos pendientes en creditos para proteger a tu familia o negocio ante contingencias.",
       "icon": "doc",
       "color": "#475569",
       "bg": "#f1f5f9"
     },
     {
       "title": "Cauciones",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Garantias seguras para contratos.",
+      "hoverText": "Emitimos cauciones para licitaciones, alquileres y obras con procesos agiles y asesoramiento claro.",
       "icon": "lock",
       "color": "#e11d48",
       "bg": "#fff1f2"
     },
     {
       "title": "Seguro tecnico",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Cobertura para equipos y tecnologia.",
+      "hoverText": "Protege maquinaria, equipamiento electronico y herramientas clave contra fallas, danos y robos.",
       "icon": "tools",
       "color": "#0891b2",
       "bg": "#ecfeff"
     },
     {
       "title": "Embarcaciones de placer",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Navega con tranquilidad y respaldo.",
+      "hoverText": "Aseguramos tu embarcacion, accesorios y responsabilidad frente a terceros durante toda la temporada.",
       "icon": "boat",
       "color": "#0b5ed7",
       "bg": "#e8f0ff"
     },
     {
       "title": "Incendio",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Proteccion esencial para bienes y patrimonio.",
+      "hoverText": "Cobertura ante incendio, explosion y danos derivados para cuidar tu inversion y continuidad operativa.",
       "icon": "fire",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
     },
     {
       "title": "Responsabilidad civil",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Respaldo frente a reclamos de terceros.",
+      "hoverText": "Te protegemos ante danos ocasionados a terceros con limites y alcances ajustados a tu actividad.",
       "icon": "person",
       "color": "#16a34a",
       "bg": "#ecfdf3"
     },
     {
       "title": "Todo riesgo operativo",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Cobertura amplia para operaciones complejas.",
+      "hoverText": "Disenamos una proteccion integral para activos criticos y riesgos operativos de alta exigencia.",
       "icon": "shield",
       "color": "#475569",
       "bg": "#f1f5f9"
     },
     {
       "title": "Transporte terrestre de mercaderias",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Seguridad en cada traslado.",
+      "hoverText": "Cubre tus cargas durante todo el recorrido con opciones nacionales e internacionales y seguimiento experto.",
       "icon": "truck",
       "color": "#e11d48",
       "bg": "#fff1f2"
     },
     {
       "title": "Importacion/exportacion",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Cobertura para comercio exterior.",
+      "hoverText": "Protegemos operaciones de importacion y exportacion con soluciones alineadas a normas y riesgos logisticos.",
       "icon": "globe",
       "color": "#0891b2",
       "bg": "#ecfeff"
     },
     {
       "title": "Seguros para el agro",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Respaldo para produccion rural.",
+      "hoverText": "Asegura cultivos, maquinaria y actividad agropecuaria con planes pensados para cada region y temporada.",
       "icon": "flower",
       "color": "#0b5ed7",
       "bg": "#e8f0ff"
     },
     {
       "title": "Seguros para construcciones, refacciones, ampliaciones y montajes",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Cobertura para obras en todas sus etapas.",
+      "hoverText": "Proteccion tecnica y patrimonial para obras civiles e instalaciones, desde inicio hasta entrega final.",
       "icon": "build",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
     },
     {
       "title": "Planes para grupos de afinidad",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Beneficios colectivos con gestion simple.",
+      "hoverText": "Creamos planes para asociaciones y comunidades con condiciones preferenciales y comunicacion clara.",
       "icon": "users",
       "color": "#16a34a",
       "bg": "#ecfdf3"
     },
     {
       "title": "Desarrollo de concesionarias automotores",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Programas de seguros para ventas y postventa.",
+      "hoverText": "Impulsa tu concesionaria con propuestas de seguros integradas al proceso comercial y fidelizacion de clientes.",
       "icon": "car",
       "color": "#475569",
       "bg": "#f1f5f9"
     },
     {
       "title": "Seguros de credito",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Proteccion para cuentas por cobrar.",
+      "hoverText": "Reduce el riesgo de incobrabilidad y fortalece tus ventas a plazo con cobertura de credito comercial.",
       "icon": "credit",
       "color": "#e11d48",
       "bg": "#fff1f2"
     },
     {
       "title": "Seguros de extension de garantias",
-      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "subtitle": "Mas cobertura para tus productos.",
+      "hoverText": "Extendemos la garantia original para mejorar experiencia del cliente y proteger el valor de cada compra.",
       "icon": "warranty",
       "color": "#0891b2",
       "bg": "#ecfeff"
