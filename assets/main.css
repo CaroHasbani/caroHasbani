@@ -1,6 +1,7 @@
 ﻿:root {
   --brand-blue: #0b5ed7;
-  --brand-blue-dark: #0a3fa0;
+  /* --brand-blue-dark: #0a3fa0; */
+  --brand-blue-dark: #272c4f; 
   --brand-blue-soft: #e8f0ff;
   --brand-cyan: #a8d0e8;
   --brand-orange: #ff6b4a;
@@ -103,6 +104,7 @@ a {
 .hero .display-4 {
   font-size: clamp(1.9rem, 3.9vw, 3.5rem);
 }
+
 
 .hero-image {
   border-radius: 22px;
@@ -330,11 +332,11 @@ a {
 }
 
 .why-steps h4 {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 
 .why-steps > p {
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -369,13 +371,13 @@ a {
 
 .why-step-title {
   font-weight: 800;
-  font-size: 1.45rem;
+  font-size: 1.1rem;
   line-height: 1.2;
 }
 
 .why-step-copy {
   color: rgba(255, 255, 255, 0.85);
-  font-size: 1.03rem;
+  font-size: 0.95rem;
   line-height: 1.5;
 }
 
@@ -621,11 +623,11 @@ footer a:hover {
   }
 
   .why-steps h4 {
-    font-size: 1.55rem;
+    font-size: 1.35rem;
   }
 
   .why-step-title {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
   }
 
   .footer-ssn {
