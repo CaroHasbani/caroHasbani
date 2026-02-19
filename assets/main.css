@@ -84,7 +84,12 @@ a {
 }
 
 .navbar-hero {
-  background: var(--brand-blue);
+  /* background: var(--brand-blue); */
+  background: radial-gradient(circle at top left, #f7fbff 0%, #dfe9ff 55%, #c8dcff 100%);
+
+}
+.nav-link{
+  color: var(--text-dark);
 }
 
 .hero {

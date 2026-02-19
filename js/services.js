@@ -54,7 +54,8 @@ async function buildServicesCarousel() {
     personDash: "bi bi-person-dash",
     backpack: "bi bi-backpack3-fill",
     scooter: "bi bi-scooter",
-    personLock: "bi bi-person-fill-lock"
+    personLock: "bi bi-person-fill-lock",
+    shield: "bi bi-shield-fill-check"
     };
 
   function renderCard(item, index) {

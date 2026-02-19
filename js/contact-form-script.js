@@ -10,7 +10,7 @@ function submitForm(){
 
     $.ajax({
         type: "POST",
-        url: "https://formsubmit.co/ajax/hasbanicarolina@gmail.com",
+        url: "https://formsubmit.co/ajax/fasasegura@gmail.com",
         dataType: 'json',
         accepts: 'application/json',
         data: {

@@ -44,48 +44,28 @@ window.FAQ_DATA = {
     ]
   },
   salud: {
-    label: "Salud",
+    label: "Accidentes Personales",
     questions: [
       {
-        q: "¿Por qué me conviene tener un Seguro de Salud?",
-        a: "Contar con un Seguro de Salud te brinda respaldo económico ante situaciones médicas graves. Al momento del primer diagnóstico de cáncer, accidente cerebrovascular, infarto de miocardio o si necesitás un trasplante, recibís una suma de dinero para afrontar los gastos que se presenten. Además, según el plan que elijas, también cubre insuficiencia renal e intervenciones quirúrgicas."
+        q: "pregunta",
+        a: ""
       },
       {
-         q: "¿Qué enfermedades cubre?",
-        a: "Accidente cerebro vascular. Infarto de miocardio. Trasplante: los órganos cubiertos son: corazón, corazón-pulmón, pulmón, hígado, páncreas, riñón, médula ósea, cornea. Cáncer femenino: Cubrimos ante el primer diagnóstico de cáncer de ovario, útero y/o cuello del útero y mama. Cáncer masculino: Te cubrimos ante el primer diagnóstico de cáncer de próstata, testículos, vejiga/urinario. "
+         q: "pregunta",
+        a: " "
         
       },
       {
-        q: "¿Cualquier persona puede contratar este seguro?",
-        a: "Lo puede contratar cualquier persona entre 25 y 59 años, que no haya tenido ninguna de las enfermedades cubiertas y que sean asegurables según las preguntas establecidas en el cuestionario."
+        q: "pregunta",
+        a: ""
       },
       {
-        q: "Si estando cubierto me diagnostican una enfermedad y cobro la suma asegurada, ¿lo póliza continúa vigente?",
-        a: "Sí, las coberturas son independientes. Esto significa que, por ejemplo, si se diagnostica cáncer, se paga la suma asegurada correspondiente y el seguro continúa vigente para las otras tres coberturas. Tené en cuenta que la póliza no va a contar más con la cobertura de esta enfermedad, por lo que la prima se reducirá acorde a esto."
+        q: "pregunta",
+        a: ""
       }
     ]
   },
-  embarcaciones: {
-    label: "Embarcaciones",
-    questions: [
-      {
-        q: "¿Qué tipi de embarcacines puedo asegurar?",
-        a: "BUSCAR"
-      },
-      {
-        q: "¿El seguro tiene servicio de asistencia",
-        a: "BUSCAR"
-      },
-      {
-        q: "BLA: Es obligatorio el seguro?",
-        a: "Depende de la jurisdiccion y el tipo de embarcacion."
-      },
-      {
-        q: "BLA: Cubre accidentes personales?",
-        a: "Si, con planes ampliados para tripulantes."
-      }
-    ]
-  },
+ 
   moto: {
     label: "Moto",
     questions: [
@@ -94,7 +74,7 @@ window.FAQ_DATA = {
         a: "Sí. La póliza incluye a cualquier conductor que tenga una cédula autorizada para manejar esa moto."
       },
       {
-        q: "Cubre acompanante?",
+        q: "Cubre acompañante?",
         a: "Si, con planes ampliados de accidentes personales."
       },
       {
