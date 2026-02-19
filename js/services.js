@@ -19,6 +19,7 @@ async function buildServicesCarousel() {
     spark: "bi-stars",
     doc: "bi-file-earmark-text",
     lock: "bi-lock",
+    pageLock: "bi bi-file-earmark-lock2",
     tools: "bi-tools",
     boat: "bi-water",
     fire: "bi-fire",
@@ -46,7 +47,14 @@ async function buildServicesCarousel() {
     flower: "bi bi-flower1",
     building: "bi bi-buildings",
     shop: "bi bi-shop",
-    carFill: "bi bi-car-front-fill"
+    carFill: "bi bi-car-front-fill",
+    toggle: "bi bi-toggle-on",
+    luggage: "bi bi-luggage-fill",
+    laptop: "bi bi-laptop",
+    personDash: "bi bi-person-dash",
+    backpack: "bi bi-backpack3-fill",
+    scooter: "bi bi-scooter",
+    personLock: "bi bi-person-fill-lock"
     };
 
   function renderCard(item, index) {

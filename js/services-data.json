@@ -3,7 +3,7 @@
     {
       "title": "Automotores ",
       "subtitle": "Cotiza ahora con las mejores companias",
-      "hoverText": "Compara coberturas para tu auto en minutos y elegi la opcion que mejor protege tu vehiculo y tu bolsillo.",
+      "hoverText": "Compara coberturas para tu auto en minutos y elegi la opción que mejor protege tu vehiculo y maneja tranquilo.",
       "icon": "car",
       "color": "#0b5ed7",
       "bg": "#e8f0ff"
@@ -11,15 +11,15 @@
     {
       "title": "Motos",
       "subtitle": "Protección pensada para tu movilidad diaria.",
-      "hoverText": "Armamos un plan para tu moto segun uso personal o laboral, con asistencia y respaldo en todo momento.",
+      "hoverText": "Cotizá tu moto, elegí la mejor cobertura con asistencia y respaldo en todo momento",
       "icon": "cycle",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
     },
     {
-      "title": "Flotas de vehiculos, personal y comercial",
-      "subtitle": "Cobertura integral para equipos y operacion.",
-      "hoverText": "Centraliza la proteccion de tu flota con administración simple, control de polizas y respuesta rápida ante siniestros.",
+      "title": "Flotas para vehiculos particulares y comerciales",
+      "subtitle": "Cobertura integral para equipos y operación.",
+      "hoverText": "Centraliza la protección de tu flota con administración simple, control de polizas y respuesta rápida ante siniestros.",
       "icon": "carFill",
       "color": "#16a34a",
       "bg": "#ecfdf3"
@@ -27,7 +27,7 @@
     {
       "title": "Hogar",
       "subtitle": "Cuida tu casa, vivi tranquilo",
-      "hoverText": "Protege tu vivienda y tus bienes frente a robo, incendio y danos, con asistencia para emergencias del hogar.",
+      "hoverText": "Protege tu vivienda y tus bienes contra robo, incendio y daños y roturas, incluyendo asistencia para emergencias del hogar.",
       "icon": "home",
       "color": "#475569",
       "bg": "#f1f5f9"
@@ -35,7 +35,7 @@
     {
       "title": "Integral comercio",
       "subtitle": "Respaldo para tu negocio todos los días.",
-      "hoverText": "Cubrimos local, mercaderia y responsabilidad civil para que tu comercio siga operando sin frenar.",
+      "hoverText": "Cubrimos tu local comercial, Pyme y oficina contra incendio contenidos, equipos y responsabilidad civil garantizando la continuidad operativa.",
       "icon": "shop",
       "color": "#e11d48",
       "bg": "#fff1f2"
@@ -68,7 +68,7 @@
       "title": "Accidentes personales",
       "subtitle": "Trabajá de forma segura",
       "hoverText": "Diseña una cobertura a medida para vos o tu equipo frente a accidentes dentro y fuera de la actividad laboral.",
-      "icon": "spark",
+      "icon": "personLock",
       "color": "#16a34a",
       "bg": "#ecfdf3"
     },
@@ -84,7 +84,7 @@
       "title": "Cauciones",
       "subtitle": "Garantias seguras para contratos.",
       "hoverText": "Emitimos cauciones para licitaciones, alquileres y obras con procesos agiles y asesoramiento claro.",
-      "icon": "lock",
+      "icon": "pageLock",
       "color": "#e11d48",
       "bg": "#fff1f2"
     },
@@ -189,6 +189,54 @@
       "subtitle": "Mas cobertura para tus productos.",
       "hoverText": "Extendemos la garantia original para mejorar experiencia del cliente y proteger el valor de cada compra.",
       "icon": "warranty",
+      "color": "#0891b2",
+      "bg": "#ecfeff"
+    },
+    {
+      "title": "Bolso protegido",
+      "subtitle": "Cobertura de robo para bolso y su contenido",
+      "hoverText": "bla bla bla bla ",
+      "icon": "backpack",
+      "color": "#e11d48",
+      "bg": "#fff1f2"
+    },
+    {
+      "title": "Movilidad sustentable",
+      "subtitle": "Cobertura bicicletas y monopatines",
+      "hoverText": "bla bla bla bla ",
+      "icon": "scooter",
+       "color": "#16a34a",
+      "bg": "#ecfdf3"
+    },
+       {
+      "title": "Tecno Portátil",
+      "subtitle": "Portección para celular y notebook",
+      "hoverText": "bla bla bla bla ",
+      "icon": "laptop",
+      "color": "#ff6b4a",
+      "bg": "#fff2e8"
+    },
+    {
+      "title": "Asistencia al viajero",
+      "subtitle": "Portección para celular y notebook",
+      "hoverText": "bla bla bla bla ",
+      "icon": "luggage",
+      "color": "#0891b2",
+      "bg": "#ecfeff"
+    },
+    {
+      "title": "Sepelio individual y colectivo",
+      "subtitle": "Portección para celular y notebook",
+      "hoverText": "bla bla bla bla ",
+      "icon": "personDash",
+     "color": "#475569",
+      "bg": "#f1f5f9"
+    },
+    {
+      "title": "Y mucho más",
+      "subtitle": "Contactanos y asegurate en minutos",
+      "hoverText": "Aeronavegación, Cascos y seguros portuarios, Responsabilidad civil, TRO petróleo, explosivos y actividades peligrosas, Mala praxis, D&O y E&O, Medicina prepaga, Telemedicina. Consultanos!",
+      "icon": "plus",
       "color": "#0891b2",
       "bg": "#ecfeff"
     }
