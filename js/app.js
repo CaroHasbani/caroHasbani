@@ -81,7 +81,7 @@ function setupContactFormSubmission() {
 
       const isMobile = /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
 
-      fetch("https://formsubmit.co/ajax/hasbanicarolina@gmail.com", {
+      fetch("https://formsubmit.co/ajax/fasasegura@gmail.com", {
         method: "POST",
         keepalive: true,
         headers: {

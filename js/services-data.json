@@ -11,7 +11,7 @@
     {
       "title": "Motos",
       "subtitle": "Protección pensada para tu movilidad diaria.",
-      "hoverText": "Cotizá tu moto, elegí la mejor cobertura con asistencia y respaldo en todo momento",
+      "hoverText": "Cotizá tu moto, elegí la mejor cobertura con asistencia y respaldo en todo momento.",
       "icon": "cycle",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
@@ -26,8 +26,8 @@
     },
     {
       "title": "Hogar",
-      "subtitle": "Cuida tu casa, vivi tranquilo",
-      "hoverText": "Protege tu vivienda y tus bienes contra robo, incendio y daños y roturas, incluyendo asistencia para emergencias del hogar.",
+      "subtitle": "Cuida tu casa, vivi tranquilo.",
+      "hoverText": "Protege tu vivienda y tus bienes contra robo, incendio, daños y roturas, incluyendo asistencia para emergencias del hogar.",
       "icon": "home",
       "color": "#475569",
       "bg": "#f1f5f9"
@@ -35,7 +35,7 @@
     {
       "title": "Integral comercio",
       "subtitle": "Respaldo para tu negocio todos los días.",
-      "hoverText": "Cubrimos tu local comercial, Pyme y oficina contra incendio contenidos, equipos y responsabilidad civil garantizando la continuidad operativa.",
+      "hoverText": "Cubrimos tu local comercial, Pyme y oficina contra incendio de contenido, equipos y Responsabilidad Civil garantizando la continuidad operativa.",
       "icon": "shop",
       "color": "#e11d48",
       "bg": "#fff1f2"
@@ -66,8 +66,8 @@
     },
     {
       "title": "Accidentes personales",
-      "subtitle": "Trabajá de forma segura",
-      "hoverText": "Diseña una cobertura a medida para vos o tu equipo frente a accidentes dentro y fuera de la actividad laboral.",
+      "subtitle": "Trabajá de forma segura.",
+      "hoverText": "Elegí un seguro a medida para vos y tu equipo que cubra los accidentes en la actividad laboral e intinere.",
       "icon": "personLock",
       "color": "#16a34a",
       "bg": "#ecfdf3"
@@ -91,7 +91,7 @@
     {
       "title": "Seguro tecnico",
       "subtitle": "Cobertura para equipos y tecnología.",
-      "hoverText": "Protege maquinaria, equipamiento electronico y herramientas clave contra fallas, danos y robos.",
+      "hoverText": "Protege maquinaria, equipamiento electronico y herramientas clave contra fallas, daños y robos.",
       "icon": "tools",
       "color": "#0891b2",
       "bg": "#ecfeff"
@@ -107,7 +107,7 @@
     {
       "title": "Incendio",
       "subtitle": "Protección esencial para bienes y patrimonio.",
-      "hoverText": "Cobertura ante incendio, explosion y danos derivados para cuidar tu inversion y continuidad operativa.",
+      "hoverText": "Cobertura ante incendio, explosion y daños derivados para cuidar tu inversion y continuidad operativa.",
       "icon": "fire",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
@@ -115,7 +115,7 @@
     {
       "title": "Responsabilidad civil",
       "subtitle": "Respaldo frente a reclamos de terceros.",
-      "hoverText": "Te protegemos ante danos ocasionados a terceros con limites y alcances ajustados a tu actividad.",
+      "hoverText": "Te protegemos ante daños ocasionados a terceros con limites y alcances ajustados a tu actividad.",
       "icon": "person",
       "color": "#16a34a",
       "bg": "#ecfdf3"
@@ -194,23 +194,23 @@
     },
     {
       "title": "Bolso protegido",
-      "subtitle": "Cobertura de robo para bolso y su contenido",
-      "hoverText": "bla bla bla bla ",
+      "subtitle": "Cobertura de robo para bolso y su contenido.",
+      "hoverText": "Pensado para solucionar los imprevistos que puedan surgir por robo o tentativa de tu bolso, mochila o cartera. ",
       "icon": "backpack",
       "color": "#e11d48",
       "bg": "#fff1f2"
     },
     {
       "title": "Movilidad sustentable",
-      "subtitle": "Cobertura bicicletas y monopatines",
-      "hoverText": "bla bla bla bla ",
+      "subtitle": "Cobertura bicicletas y monopatines.",
+      "hoverText": "Asegura tu bicicleta, monopoatín y/o moto eléctrica. Si los utilizas para trasladarte, el seguro de movilidad sustentable protege tanto a tu vehícul como a tu integridad física y la de terceros. ",
       "icon": "scooter",
        "color": "#16a34a",
       "bg": "#ecfdf3"
     },
        {
       "title": "Tecno Portátil",
-      "subtitle": "Portección para celular y notebook",
+      "subtitle": "Protección para notebook, celular y dispositivos portatiles.",
       "hoverText": "bla bla bla bla ",
       "icon": "laptop",
       "color": "#ff6b4a",
@@ -218,23 +218,23 @@
     },
     {
       "title": "Asistencia al viajero",
-      "subtitle": "Portección para celular y notebook",
-      "hoverText": "bla bla bla bla ",
+      "subtitle": "Protección durante el viaje.",
+      "hoverText": "Viaja tranquilo por el mundo con la mejor asistencia.",
       "icon": "luggage",
       "color": "#0891b2",
       "bg": "#ecfeff"
     },
     {
       "title": "Sepelio individual y colectivo",
-      "subtitle": "Portección para celular y notebook",
-      "hoverText": "bla bla bla bla ",
+      "subtitle": "cobertura para riesgo de fallecimiento y/o incapacidad para empleados.",
+      "hoverText": "",
       "icon": "personDash",
      "color": "#475569",
       "bg": "#f1f5f9"
     },
     {
       "title": "Y mucho más",
-      "subtitle": "Contactanos y asegurate en minutos",
+      "subtitle": "Contactanos y asegurate en minutos.",
       "hoverText": "Aeronavegación, Cascos y seguros portuarios, Responsabilidad civil, TRO petróleo, explosivos y actividades peligrosas, Mala praxis, D&O y E&O, Medicina prepaga, Telemedicina. Consultanos!",
       "icon": "plus",
       "color": "#0891b2",
