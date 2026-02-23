@@ -237,6 +237,10 @@ a {
   transform: rotateY(180deg);
 }
 
+.service-card.is-flipped .service-card-inner {
+  transform: rotateY(180deg);
+}
+
 .service-icon {
   width: 48px;
   height: 48px;
@@ -607,6 +611,10 @@ footer a:hover {
 
   .service-card:hover .service-card-inner {
     transform: none;
+  }
+
+  .service-card.is-flipped .service-card-inner {
+    transform: rotateY(180deg);
   }
 
   .why-values-grid {

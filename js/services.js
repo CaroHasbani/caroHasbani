@@ -120,6 +120,19 @@ async function buildServicesCarousel() {
         } aria-label="Slide ${index + 1}"></button>`
     )
     .join("");
+
+  const isMobileViewport = () => window.matchMedia("(max-width: 991.98px)").matches;
+
+  inner.addEventListener("click", (event) => {
+    const card = event.target.closest(".service-card");
+    if (!card || !isMobileViewport()) return;
+
+    inner.querySelectorAll(".service-card.is-flipped").forEach((item) => {
+      if (item !== card) item.classList.remove("is-flipped");
+    });
+
+    card.classList.toggle("is-flipped");
+  });
 }
 
 document.addEventListener("components:loaded", buildServicesCarousel);
