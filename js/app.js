@@ -106,6 +106,25 @@ function setupContactFormSubmission() {
   });
 }
 
+function setupMobileNavAutoClose() {
+  const navMenu = document.getElementById("navMenu");
+  if (!navMenu) return;
+
+  const isMobileViewport = () => window.matchMedia("(max-width: 991.98px)").matches;
+  const getCollapse = () => {
+    if (!window.bootstrap || !bootstrap.Collapse) return null;
+    return bootstrap.Collapse.getOrCreateInstance(navMenu, { toggle: false });
+  };
+
+  navMenu.addEventListener("click", (event) => {
+    const link = event.target.closest("a.nav-link");
+    if (!link || !isMobileViewport()) return;
+
+    const collapse = getCollapse();
+    if (collapse) collapse.hide();
+  });
+}
+
 
 (async () => {
   await loadComponent("app", "components/header.html");
@@ -119,5 +138,6 @@ function setupContactFormSubmission() {
   await loadComponent("app", "components/footer.html");
   setupContactFormPhoneValidation();
   setupContactFormSubmission();
+  setupMobileNavAutoClose();
   document.dispatchEvent(new Event("components:loaded"));
 })();
