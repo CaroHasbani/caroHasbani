@@ -47,15 +47,15 @@
             </div>
             <div class="col-12">
               <label class="form-label small fw-semibold">Tu mensaje</label>
-              <input
-                type="text"
+              <textarea
                 class="form-control"
                 name="mensaje"
                 placeholder="Indicanos que tipo de seguro deseas contratar y detalles del bien a asegurar."
                 required
                 data-error="Por favor ingresa tu mensaje"
                 id="mensaje"
-              />
+                rows="3"
+              ></textarea>
             </div>
             <div class="col-12">
               <button class="btn btn-cta w-100" id="submit" data-callback="onSubmit" type="submit">Enviar Consulta</button>
