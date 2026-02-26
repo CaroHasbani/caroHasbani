@@ -2,8 +2,8 @@
   "items": [
     {
       "title": "Automotores ",
-      "subtitle": "Cotiza ahora con las mejores companias",
-      "hoverText": "Compara coberturas para tu auto en minutos y elegi la opción que mejor protege tu vehiculo y maneja tranquilo.",
+      "subtitle": "Cotizá ahora con las mejores companias",
+      "hoverText": "Compará coberturas para tu auto en minutos y elegi la opción que mejor protege tu vehículo y maneja tranquilo.",
       "icon": "car",
       "color": "#0b5ed7",
       "bg": "#e8f0ff"
@@ -17,7 +17,7 @@
       "bg": "#fff2e8"
     },
     {
-      "title": "Flotas para vehiculos particulares y comerciales",
+      "title": "Flotas para vehículos particulares y comerciales",
       "subtitle": "Cobertura integral para equipos y operación.",
       "hoverText": "Centraliza la protección de tu flota con administración simple, control de polizas y respuesta rápida ante siniestros.",
       "icon": "carFill",
@@ -26,7 +26,7 @@
     },
     {
       "title": "Hogar",
-      "subtitle": "Cuida tu casa, vivi tranquilo.",
+      "subtitle": "Cuida tu casa, viví tranquilo.",
       "hoverText": "Protege tu vivienda y tus bienes contra robo, incendio, daños y roturas, incluyendo asistencia para emergencias del hogar.",
       "icon": "home",
       "color": "#475569",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Riesgos del trabajo (ART)",
-      "subtitle": "Proteccion laboral para tu equipo.",
+      "subtitle": "Protección laboral para tu equipo.",
       "hoverText": "Gestionamos ART con enfoque preventivo, cumplimiento normativo y acompañamiento en cada incidente.",
       "icon": "briefcase",
       "color": "#0b5ed7",
@@ -75,15 +75,15 @@
     {
       "title": "Saldo deudor",
       "subtitle": "Resguardo para compromisos financieros.",
-      "hoverText": "Cubrimos saldos pendientes en creditos para proteger a tu familia o negocio ante contingencias.",
+      "hoverText": "Cubrimos saldos pendientes en créditos para proteger a tu familia o negocio ante contingencias.",
       "icon": "doc",
       "color": "#475569",
       "bg": "#f1f5f9"
     },
     {
       "title": "Cauciones",
-      "subtitle": "Garantias seguras para contratos.",
-      "hoverText": "Emitimos cauciones para licitaciones, alquileres y obras con procesos agiles y asesoramiento claro.",
+      "subtitle": "Garantías seguras para contratos.",
+      "hoverText": "Emitimos cauciones para licitaciones, alquileres y obras con procesos ágiles y asesoramiento claro.",
       "icon": "pageLock",
       "color": "#e11d48",
       "bg": "#fff1f2"
@@ -123,7 +123,7 @@
     {
       "title": "Todo riesgo operativo",
       "subtitle": "Cobertura amplia para operaciones complejas.",
-      "hoverText": "Disenamos una proteccion integral para activos criticos y riesgos operativos de alta exigencia.",
+      "hoverText": "Disenamos una protección integral para activos criticos y riesgos operativos de alta exigencia.",
       "icon": "shield",
       "color": "#475569",
       "bg": "#f1f5f9"
@@ -147,7 +147,7 @@
     {
       "title": "Seguros para el agro",
       "subtitle": "Respaldo para produccion rural.",
-      "hoverText": "Asegura cultivos, maquinaria y actividad agropecuaria con planes pensados para cada region y temporada.",
+      "hoverText": "Asegura cultivos, maquinaria y actividad agropecuaria con planes pensados para cada región y temporada.",
       "icon": "flower",
       "color": "#0b5ed7",
       "bg": "#e8f0ff"
@@ -155,7 +155,7 @@
     {
       "title": "Seguros para construcciones, refacciones, ampliaciones y montajes",
       "subtitle": "Cobertura para obras en todas sus etapas.",
-      "hoverText": "Proteccion tecnica y patrimonial para obras civiles e instalaciones, desde inicio hasta entrega final.",
+      "hoverText": "Protección técnica y patrimonial para obras civiles e instalaciones, desde inicio hasta entrega final.",
       "icon": "build",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
@@ -177,17 +177,17 @@
       "bg": "#f1f5f9"
     },
     {
-      "title": "Seguros de credito",
-      "subtitle": "Proteccion para cuentas por cobrar.",
-      "hoverText": "Reduce el riesgo de incobrabilidad y fortalece tus ventas a plazo con cobertura de credito comercial.",
+      "title": "Seguros de crédito",
+      "subtitle": "Protección para cuentas por cobrar.",
+      "hoverText": "Reduce el riesgo de incobrabilidad y fortalece tus ventas a plazo con cobertura de crédito comercial.",
       "icon": "credit",
       "color": "#e11d48",
       "bg": "#fff1f2"
     },
     {
-      "title": "Seguros de extension de garantias",
-      "subtitle": "Mas cobertura para tus productos.",
-      "hoverText": "Extendemos la garantia original para mejorar experiencia del cliente y proteger el valor de cada compra.",
+      "title": "Seguros de extensión de garantías",
+      "subtitle": "Más cobertura para tus productos.",
+      "hoverText": "Extendemos la garantía original para mejorar experiencia del cliente y proteger el valor de cada compra.",
       "icon": "warranty",
       "color": "#0891b2",
       "bg": "#ecfeff"
@@ -195,7 +195,7 @@
     {
       "title": "Bolso protegido",
       "subtitle": "Cobertura de robo para bolso y su contenido.",
-      "hoverText": "Pensado para solucionar los imprevistos que puedan surgir por robo o tentativa de tu bolso, mochila o cartera. ",
+      "hoverText": "Pensado para solucionar los imprevistos que puedan surgir por robo o tentativa, de tu bolso, mochila o cartera. ",
       "icon": "backpack",
       "color": "#e11d48",
       "bg": "#fff1f2"
@@ -203,15 +203,15 @@
     {
       "title": "Movilidad sustentable",
       "subtitle": "Cobertura bicicletas y monopatines.",
-      "hoverText": "Asegura tu bicicleta, monopoatín y/o moto eléctrica. Si los utilizas para trasladarte, el seguro de movilidad sustentable protege tanto a tu vehícul como a tu integridad física y la de terceros. ",
+      "hoverText": "Asegura tu bicicleta, monopoatín y/o moto eléctrica. Si los utilizas para trasladarte, el seguro de movilidad sustentable protege tanto a tu o como a tu integridad física y la de terceros. ",
       "icon": "scooter",
        "color": "#16a34a",
       "bg": "#ecfdf3"
     },
        {
       "title": "Tecno Portátil",
-      "subtitle": "Protección para notebook, celular y dispositivos portatiles.",
-      "hoverText": "bla bla bla bla ",
+      "subtitle": "Protección para notebook, celular y dispositivos portátiles.",
+      "hoverText": "Es ideal para notebooks, celulares, tablets y otros equipos que llevás con vos a todos lados. Con esta cobertura, evitás tener que afrontar el costo total de reposición o reparación.",
       "icon": "laptop",
       "color": "#ff6b4a",
       "bg": "#fff2e8"
@@ -227,15 +227,15 @@
     {
       "title": "Sepelio individual y colectivo",
       "subtitle": "cobertura para riesgo de fallecimiento y/o incapacidad para empleados.",
-      "hoverText": "",
+      "hoverText": "Incluye la cobertura de los gastos y servicios funerarios, evitando que la familia o la empresa deban afrontar costos imprevistos en un momento delicado. Es una solución que aporta previsión, acompañamiento y tranquilidad.",
       "icon": "personDash",
      "color": "#475569",
       "bg": "#f1f5f9"
     },
     {
       "title": "Y mucho más",
-      "subtitle": "Contactanos y asegurate en minutos.",
-      "hoverText": "Aeronavegación, Cascos y seguros portuarios, Responsabilidad civil, TRO petróleo, explosivos y actividades peligrosas, Mala praxis, D&O y E&O, Medicina prepaga, Telemedicina. Consultanos!",
+      "subtitle": "Contactános y asegurate en minutos.",
+      "hoverText": "Aeronavegación, Cascos y seguros portuarios, Responsabilidad civil, TRO petróleo, explosivos y actividades peligrosas, Mala praxis, D&O y E&O, Medicina prepaga, Telemedicina. Consultános!",
       "icon": "plus",
       "color": "#0891b2",
       "bg": "#ecfeff"

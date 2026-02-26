@@ -2,11 +2,13 @@ function buildFaqUI() {
   const data = window.FAQ_DATA;
   const pillsContainer = document.querySelector("[data-faq-pills]");
   const accordionContainer = document.querySelector("[data-faq-accordion]");
+  const pillsWrap = document.querySelector("[data-faq-pills-wrap]");
 
-  if (!data || !pillsContainer || !accordionContainer) return;
+  if (!data || !pillsContainer || !accordionContainer || !pillsWrap) return;
 
   const categories = Object.keys(data);
   let activeCategory = categories[0];
+  const scrollControls = setupFaqPillsScroll(pillsWrap, pillsContainer);
 
   function renderPills() {
     pillsContainer.innerHTML = "";
@@ -22,6 +24,8 @@ function buildFaqUI() {
       });
       pillsContainer.appendChild(button);
     });
+
+    scrollControls.update();
   }
 
   function renderAccordion() {
@@ -56,10 +60,46 @@ function buildFaqUI() {
   renderAccordion();
 }
 
+// Mobile-only horizontal scrolling with arrows and fades.
+function setupFaqPillsScroll(pillsWrap, pillsContainer) {
+  const leftButton = pillsWrap.querySelector("[data-faq-scroll='left']");
+  const rightButton = pillsWrap.querySelector("[data-faq-scroll='right']");
 
+  if (!leftButton || !rightButton) {
+    return { update: () => {} };
+  }
 
+  const scrollAmount = () => Math.max(180, Math.round(pillsContainer.clientWidth * 0.7));
 
+  // Updates arrow visibility + fade indicators based on current scroll state.
+  const update = () => {
+    const maxScroll = pillsContainer.scrollWidth - pillsContainer.clientWidth;
+    const hasOverflow = maxScroll > 1;
+    const canScrollLeft = pillsContainer.scrollLeft > 1;
+    const canScrollRight = pillsContainer.scrollLeft < maxScroll - 1;
 
+    pillsWrap.classList.toggle("can-scroll-left", hasOverflow && canScrollLeft);
+    pillsWrap.classList.toggle("can-scroll-right", hasOverflow && canScrollRight);
 
+    leftButton.classList.toggle("is-visible", hasOverflow && canScrollLeft);
+    rightButton.classList.toggle("is-visible", hasOverflow && canScrollRight);
+  };
+
+  leftButton.addEventListener("click", () => {
+    pillsContainer.scrollBy({ left: -scrollAmount(), behavior: "smooth" });
+  });
+
+  rightButton.addEventListener("click", () => {
+    pillsContainer.scrollBy({ left: scrollAmount(), behavior: "smooth" });
+  });
+
+  pillsContainer.addEventListener("scroll", () => {
+    window.requestAnimationFrame(update);
+  });
+
+  window.addEventListener("resize", update);
+
+  return { update };
+}
 
 document.addEventListener("components:loaded", buildFaqUI);
