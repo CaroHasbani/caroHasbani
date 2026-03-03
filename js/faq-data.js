@@ -32,7 +32,7 @@ window.FAQ_DATA = {
         a: "El robo implica violencia o fuerza. El hurto es la sustracción sin violencia."
       },
       {
-        q: "¿Que hago en cado de sisniestro?",
+        q: "¿Que hago en cado de siniestro?",
         a: "Ponete en contacto con nosotros por email o teléfono y hace la denuncia."
       }
     ]
@@ -161,11 +161,11 @@ window.FAQ_DATA = {
         a: "Si, la poliza cubre a conductores autorizados."
       },
       {
-       q: "Cuándo puedo darme de baja?",
+       q: "¿Cuándo puedo darme de baja?",
         a: "Podes solicitar la baja en cualquier momento. Si ya abonaste, se reintegra la diferencia."
       },
       {
-        q: "Como gestiono un siniestro?",
+        q: "¿Cómo gestiono un siniestro?",
         a: "Desde WhatsApp, email o por telefono."
       }
     ]
