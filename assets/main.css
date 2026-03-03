@@ -30,6 +30,18 @@ h5 {
   font-family: "Montserrat", "Segoe UI", sans-serif;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 0.95rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -349,7 +361,6 @@ a {
 
 .why-value-copy {
   color: var(--text-muted);
-  font-size: 0.92rem;
   line-height: 1.6;
 }
 
@@ -405,7 +416,6 @@ a {
 
 .why-profile-copy {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 0.92rem;
   line-height: 1.6;
   margin-bottom: 0;
 }
@@ -429,17 +439,11 @@ a {
 
 .why-profile-mission p {
   margin-bottom: 0;
-  font-size: 0.92rem;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.95);
 }
 
-.why-steps h4 {
-  font-size: 1.5rem;
-}
-
 .why-steps > p {
-  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -808,9 +812,6 @@ footer a:hover {
     padding: 28px;
   }
 
-  .why-steps h4 {
-    font-size: 1.35rem;
-  }
 
   .why-profile-card {
     padding: 28px;
@@ -821,9 +822,6 @@ footer a:hover {
     height: 110px;
   }
 
-  .why-value-title {
-    font-size: 1.05rem;
-  }
 
   .why-step-title {
     font-size: 1.05rem;
