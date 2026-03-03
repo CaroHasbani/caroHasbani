@@ -265,8 +265,12 @@ a {
 }
 
 .why-section {
-  background: linear-gradient(120deg, #3b82f6, #1d4ed8);
+  /* background: linear-gradient(120deg, #3b82f6, #1d4ed8); */
   color: #fff;
+}
+
+.why-section .section-title {
+  color: var(--text-dark);
 }
 
 .why-card {
@@ -341,6 +345,80 @@ a {
   border-radius: 20px;
   padding: 36px;
   box-shadow: var(--card-shadow);
+}
+
+.why-profile {
+  background: transparent;
+  height: 100%;
+}
+
+.why-profile-card {
+  /* background: linear-gradient(180deg, #1f6fe0 0%, #1b57b8 100%); */
+  background: var(--brand-blue-dark);
+  border-radius: 22px;
+  padding: 36px;
+  color: #fff;
+  box-shadow: var(--card-shadow);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.why-profile-photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 999px;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  display: grid;
+  place-items: center;
+  align-self: center;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.why-profile-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.why-profile-title {
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.why-profile-copy {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.why-profile-mission {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  padding: 16px 18px;
+}
+
+.why-profile-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  font-weight: 800;
+  /* color: #ffdfcc; */
+  color: var(--brand-orange);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.why-profile-mission p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
 }
 
 .why-steps h4 {
@@ -719,6 +797,15 @@ footer a:hover {
 
   .why-steps h4 {
     font-size: 1.35rem;
+  }
+
+  .why-profile-card {
+    padding: 28px;
+  }
+
+  .why-profile-photo {
+    width: 110px;
+    height: 110px;
   }
 
   .why-step-title {
